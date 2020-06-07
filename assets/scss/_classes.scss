@@ -6,7 +6,7 @@
 /*------Breakpoints---------*/
 
 // 1400px
-@media screen and (min-width: $xxxl) {
+@media screen and (max-width: $xxxl) {
     .container {
         padding: 0 60px;
     }
@@ -15,7 +15,7 @@
 /*----------------------------*/
 
 // 1200px
-@media screen and (min-width: $xxl) {
+@media screen and (max-width: $xxl) {
     .container {
         padding: 0 40px;
     }
@@ -24,7 +24,7 @@
 /*----------------------------*/
 
 // 960px
-@media screen and (min-width: $large) {
+@media screen and (max-width: $large) {
     .container {
         padding: 0 32px;
     }

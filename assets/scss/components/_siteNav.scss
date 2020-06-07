@@ -1,0 +1,264 @@
+.siteHeader {
+
+    &__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        clip-path: circle(50px at 100% -10%);
+    }
+
+    &__navHolder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        z-index: 10;
+    }
+
+    &__navMenu {
+        min-width: 20%;
+    }
+
+    &__navList {
+        list-style: none;
+    }
+
+    &__navListItem {
+        padding: 1.5rem 0;
+    }
+
+    &__navLink {
+        font-size: 4rem;
+        text-decoration: none;
+        color: $greyDark;
+        position: relative;
+
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 0.2rem;
+            width: 100%;
+            background-color: $blackMain;
+            transform-origin: bottom right;
+            transform: scale(0);
+            transition: transform 500ms ease;
+        }
+
+        &:hover::after, 
+        &:focus::after {
+            transform-origin: bottom left;
+            transform: scale(1);
+        }
+    }
+
+    &__navImages {
+        max-width: 60%;
+    }
+
+    // Image masking
+    &__imageHolderLarge {
+        position: relative;
+    }
+
+    &__imageMaskLarge {
+        top: 0;
+        left: 0;
+        width: 685px;
+        height: 685px;
+        clip-path: url(#navLargeImageMask);
+    }
+
+    // Large background circle
+    &__largeBackgroundCircle {
+        position: absolute;
+        bottom: -18%;
+        right: -13%;
+        opacity: .03;
+    }
+}
+
+/*-------------------------------------
+        Responsive
+--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxxl) {
+    .siteHeader {
+
+        &__largeBackgroundCircle {
+            bottom: -3%;
+            right: -22%;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .siteHeader {
+
+        &__navLink {
+            font-size: 3rem;
+        }
+
+        &__imageHolderLarge {
+            transform: scale(0.9);
+        }
+
+        &__largeBackgroundCircle {
+            bottom: -3%;
+            right: -27%;
+            transform: scale(0.8);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xxl) {
+    .siteHeader {
+
+        &__largeBackgroundCircle {
+            right: -40%;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .siteHeader {
+
+        &__imageHolderLarge {
+            transform: scale(0.7);
+        }
+
+        &__largeBackgroundCircle {
+            bottom: 0%;
+            right: -40%;
+            transform: scale(0.7);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .siteHeader {
+
+        &__navLink {
+            font-size: 2.5rem;
+        }
+
+        &__imageHolderLarge {
+            transform: scale(0.6);
+        }
+
+        &__largeBackgroundCircle {
+            bottom: 7%;
+            right: -69%;
+            transform: scale(0.6);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//600px
+@media screen and (max-width: $small) {
+    .siteHeader {
+
+        &__navLink {
+            font-size: 2rem;
+        }
+
+        &__imageHolderLarge {
+            transform: scale(0.5);
+        }
+
+        &__largeBackgroundCircle {
+            right: -83%;
+            transform: scale(0.5);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .siteHeader {
+
+        &__navImages {
+            max-width: 70%;
+        }
+
+        &__imageHolderLarge {
+            transform: scale(0.4);
+        }
+
+        &__largeBackgroundCircle {
+            bottom: 9%;
+            right: -116%;
+            transform: scale(0.5);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .siteHeader {
+
+        &__navLink {
+            font-size: 1.8rem;
+        }
+
+        &__imageHolderLarge {
+            transform: scale(0.4);
+        }
+
+        &__largeBackgroundCircle {
+            right: -137%;
+            transform: scale(.4);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//350px
+@media screen and (max-width: $xxs) {
+    .siteHeader {
+
+        &__navLink {
+            font-size: 1.6rem;
+        }
+
+        &__imageHolderLarge {
+            transform: scale(0.3);
+        }
+
+        &__largeBackgroundCircle {
+            right: -150%;
+            transform: scale(.4);
+        }
+    }
+}
+
+/*--------------------------------------*/

@@ -1,0 +1,88 @@
+.siteHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: $blackMain;
+    padding: 2rem 0;
+
+    &__holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        position: relative;
+        z-index: 10;
+    }
+
+    &__siteLogo {
+        width: 25rem;
+        height: 5rem;
+        fill: black;
+    }
+
+    &__contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__socials {
+        margin-right: 4rem;
+    }
+
+    &__socialList {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    &__socialListItem {
+        margin-left: 2rem;
+    }
+
+
+    &__socialIcon {
+        width: 2rem;
+        height: 2rem;
+        fill: $whiteMain;
+        transition: transform 200ms ease;
+
+        &:hover {
+            transform: translateY(-0.2rem);
+        }
+    }
+
+    &__burgerButton {
+        position: relative;
+        padding-bottom: 2rem;
+    }
+
+    &__burgerLine {
+        display: block;
+        height: 0.2rem;
+        width: 3rem;
+        background-color: $whiteMain;
+        position: relative;
+        pointer-events: none;
+    }
+
+    &__burgerLine.line2 {
+        position: relative;
+        width: 80%;
+        height: 0.2rem;
+        top: 6px;
+        left: 0;
+        background-color: $whiteMain;
+    }
+
+    &__burgerLine.line3 {
+        position: relative;
+        width: 60%;
+        height: 0.2rem;
+        top: 12px;
+        left: 0;
+        background-color: $whiteMain;
+    }
+}
