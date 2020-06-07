@@ -1,5 +1,5 @@
-var burger = document.querySelector('.siteHeader__burgerButton');
-var body = document.querySelector('body');
+const burger = document.querySelector('.siteHeader__burgerButton');
+const body = document.querySelector('body');
 console.log(burger);
 
 function toggleNavBurger(e) {

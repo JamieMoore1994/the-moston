@@ -6,7 +6,7 @@ const concat = require('gulp-concat');
 const postcss = require('gulp-postcss');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
-const uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify-es').default;
 
 
 // File the path variables
