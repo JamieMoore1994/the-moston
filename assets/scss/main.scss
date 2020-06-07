@@ -1,1 +1,7 @@
-@import "components/test";
+@import "./global";
+@import "./variables";
+@import "./classes";
+@import "./typography";
+
+//Components
+@import "components/accessibilityButton";

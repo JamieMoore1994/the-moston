@@ -1,0 +1,33 @@
+.container {
+  padding: 0 80px;
+  margin: 0 auto;  
+}
+
+/*------Breakpoints---------*/
+
+// 1400px
+@media screen and (min-width: $xxxl) {
+    .container {
+        padding: 0 60px;
+    }
+}
+
+/*----------------------------*/
+
+// 1200px
+@media screen and (min-width: $xxl) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+/*----------------------------*/
+
+// 960px
+@media screen and (min-width: $large) {
+    .container {
+        padding: 0 32px;
+    }
+}
+
+/*----------------------------*/

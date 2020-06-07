@@ -1,0 +1,20 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}

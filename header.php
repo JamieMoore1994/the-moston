@@ -19,6 +19,8 @@
 <a href="#content" class = "skipLink">Skip to content</a>
 
 <header class="siteHeader">
-    
+    <div class="container">
+        
+    </div>
 </header>
     
