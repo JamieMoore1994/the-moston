@@ -1,6 +1,5 @@
 const burger = document.querySelector('.siteHeader__burgerButton');
 const body = document.querySelector('body');
-console.log(burger);
 
 function toggleNavBurger(e) {
     if(!e.target.classList.contains('active')) {
@@ -9,7 +8,7 @@ function toggleNavBurger(e) {
         gsap.to('.line1', 0.5, {rotate: "45", y: 4, background: 'black'});
         gsap.to('.line2', 0.5, {rotate: "-45", y: -4, background: 'black', width: '100%'});
         gsap.to('.line3', 0.5, {opacity: '0'}, "<");
-        gsap.to('.siteHeader__nav', 1, {clipPath: "circle(2000px at 100% -10%)"});
+        gsap.to('.siteHeader__nav', 1, {clipPath: "circle(2500px at 100% -10%)"});
         gsap.to('.logoColor', 1, {fill: 'black'}, "<");
         gsap.to('.siteHeader__socialIcon', 0.1, {fill: 'black'}, "-=1");
         body.classList.add('scrollHidden');

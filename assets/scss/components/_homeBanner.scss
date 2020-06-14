@@ -1,0 +1,291 @@
+.homeBanner {
+    background-color: $blackMain;
+    position: relative;
+    padding: 2rem 0;
+
+    &__holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        color: $whiteMain;
+        font-weight: 500;
+        font-size: 3rem;
+        max-width: 450px;
+        line-height: 1.2;
+        margin-bottom: 3rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__textUnderline {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            background-color: $whiteMain;
+            bottom: -2px;
+            left: 0;
+        }
+    }
+
+    &__textFill {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(242, 170, 76, 0.6);
+        bottom: 0;
+        left: 0;
+        top: 0;
+        right: 0;
+        mix-blend-mode: darken;
+        transform: translateY(100%);
+        transition: transform 200ms ease;
+        pointer-events: none;
+
+        &.js-show {
+            transform: translateY(0);
+        }
+    }
+
+    &__imageHolderLarge {
+        left: -40%;
+    }
+
+    // Large banner mask
+    &__imageLargeMask {
+        width: 341px;
+        height: 323px;
+        top: 0;
+        left: 0;
+        clip-path: url(#homeBannerLargeImageMask);
+        position: relative;
+    }
+
+    &__maskedImages {
+        height: 130%;
+    }
+
+    // Small image mask size
+    &__imageHolderSmall {
+
+        &--one {
+            top: 0;
+            right: 0;
+        }
+
+        &--two {
+            right: 12%;
+            bottom: -22%;
+        }
+
+        &--three {
+            left: -80%;
+            bottom: -12%;
+        }
+    }
+
+    &__smallImageMask {
+        width: 139px;
+        height: 132px;
+        top: 0;
+        left: 0;
+
+        &--one {
+            clip-path: url(#homeBannerSmallMaskOne);
+        }
+
+        &--two {
+            clip-path: url(#homeBannerSmallMaskTwo);
+
+            img {
+                top: -25%;
+            }
+        }
+
+        &--three {
+            clip-path: url(#homeBannerSmallMaskThree);
+        }
+    }
+
+}
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xl) {
+    .homeBanner {
+        
+        &__imageHolderLarge {
+            transform: scale(0.9);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .homeBanner {
+        min-height: 30vh;
+        
+        &__imageHolderLarge {
+            transform: scale(0.7);
+            left: -14%;
+        }
+
+        &__imageHolderSmall {
+
+            &--two {
+                bottom: -30%;
+                right: 5%;
+            }
+
+            &--three {
+                left: -34%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .homeBanner {
+        
+        &__holder {
+            flex-direction: column;
+        }
+
+        &__intro {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 2rem;
+        }
+
+        &__title {
+            text-align: center;
+        }
+
+        &__imageHolderLarge {
+            left: 5%;
+        }
+
+        &__imageHolderSmall {
+
+            &--one {
+                right: -28%;
+            }
+
+            &--two {
+                bottom: -17%;
+                right: -30%;
+            }
+
+            &--three {
+                bottom: 3%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//600px
+@media screen and (max-width: $small) {
+    .homeBanner {
+
+        &__images {
+            transform: scale(0.9);
+        }
+
+        &__imageHolderSmall {
+
+            &--one {
+                right: -25%;
+            }
+
+            &--two {
+                bottom: -15%;
+                right: -14%;
+            }
+
+            &--three {
+                left: -25%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .homeBanner {
+
+        &__holder {
+            padding-top: 2rem;
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__imageHolderLarge {
+            // transform: scale(0.5);
+            top: -50px;
+        }
+
+        &__imageHolderSmall {
+            transform: scale(0.9);
+
+            &--one {
+                right: -20%;
+            }
+
+            &--two {
+                bottom: -1%;
+            }
+
+            &--three {
+                bottom: 14%;
+                left: -10%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .homeBanner {
+
+        &__images {
+            left: -7%;
+            transform: scale(0.8)
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//350px
+@media screen and (max-width: $t) {
+    .homeBanner {
+
+        &__images {
+            transform: scale(0.7);
+        }
+    }
+}
+
+/*--------------------------------------*/
