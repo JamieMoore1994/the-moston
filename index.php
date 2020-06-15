@@ -58,6 +58,157 @@ include "header.php";
         </div>
     </section>
 
+    <main id = "content">
+
+        <!--Sunday roast section home--->
+        <section class="imageTextBlock homeIntro homeIntro--sundayRoast">
+            <div class="container">
+
+                <!--This is a text block with an image to the left-->
+                <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
+                    <div class="imageTextBlock__imageHolder pos--rel">
+                        <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--sundayRoast">
+                            <img src="assets/images/sundayRoastHome.jpg" alt="" class = "imageTextBlock__img">
+
+                            <?php include "assets/svgs/circleMasks/imageBlockMaskLargeOne.svg" ?>
+                        </div>
+
+                        <?php include "assets/svgs/homeGreyCircleOne.svg" ?>
+                    </div>
+
+                    <div class="imageTextBlock__contentHolder">
+                        <h2 class="imageTextBlock__title">Come and enjoy the best Sunday roast in Manchester</h2>
+                        <p class="imageTextBlock__text">We provide Sunday lunch via appointment & takeaway. To takeaway just make sure you ring up to order before coming to collect.
+                        Our appointment slots are 12pm & 2pm, make sure you ring up or email as early as possible to make your booking.</p>
+
+                        <a href="#" class="imageTextBlock__btn">Book now</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Breakfast section-->
+        <section class="imageTextBlock homeIntro homeIntro--breakfast">
+            <div class="container">
+
+                <!--This is a text block with an image to the left-->
+                <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
+                    <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
+                        <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--breakfast imageTextBlock__imageMaskLarge--row-reverse">
+                            <img src="assets/images/breakfastLargeSectionImage.jpg" alt="" class = "imageTextBlock__img">
+
+                            <?php include "assets/svgs/circleMasks/breakfastLargeMask.svg" ?>
+                        </div>
+
+                        <?php include "assets/svgs/homeGreyCircleTwo.svg" ?>
+                    </div>
+
+                    <div class="imageTextBlock__contentHolder">
+                        <h2 class="imageTextBlock__title">A range of menus</h2>
+                        <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                        <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our menus</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Bespoke meal prep section home--->
+        <section class="imageTextBlock homeIntro homeIntro--mealPrep">
+            <div class="container">
+
+                <!--This is a text block with an image to the left-->
+                <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
+                    <div class="imageTextBlock__imageHolder pos--rel">
+                        <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--mealPrep">
+                            <img src="assets/images/mealPrepHome.jpg" alt="" class = "imageTextBlock__img">
+
+                            <?php include "assets/svgs/circleMasks/bespokeMealMask.svg" ?>
+                        </div>
+
+                        <?php include "assets/svgs/homeGreyCircleThree.svg" ?>
+                    </div>
+
+                    <div class="imageTextBlock__contentHolder">
+                        <h2 class="imageTextBlock__title">Bespoke meal prep</h2>
+                        <p class="imageTextBlock__text">We provide healthy meal preps to suit your needs, go to our ‘Meal Prep’ page to find out more information and get in touch.</p>
+
+                        <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out meal prep</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Cakes section-->
+        <section class="imageTextBlock homeIntro homeIntro--cakes">
+            <div class="container">
+
+                <!--This is a text block with an image to the left-->
+                <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
+                    <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
+                        <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--cakes imageTextBlock__imageMaskLarge--row-reverse">
+                            <img src="assets/images/cakeImageHome.jpg" alt="" class = "imageTextBlock__img">
+
+                            <?php include "assets/svgs/circleMasks/cakeHomeMask.svg" ?>
+                        </div>
+
+                        <?php include "assets/svgs/homeGreyCircleFour.svg" ?>
+                    </div>
+
+                    <div class="imageTextBlock__contentHolder">
+                        <h2 class="imageTextBlock__title">A range of menus</h2>
+                        <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                        <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our menus</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="catering">
+            <div class="container">
+
+                <div class="catering__holder">
+                    <div class="catering__formHolder">
+                        <form action="" class="catering__form form form__cateringForm">
+                            <fieldset class = "form__fieldset">
+                                <label for="full-name" class="form__label form__labelCatering">Your full name (First and Surname) *</label>
+                                <input type="text" id = "full-name" name = "name" class = "form__input form__inputCatering" placeholder = "Full name">
+                            </fieldset>
+                            <fieldset class = "form__fieldset">
+                                <label for="email" class="form__label form__labelCatering">Your email</label>
+                                <input type="email" if = "email" name = "email" class = "form__input form__inputCatering" placeholder = "Your email">
+                            </fieldset>
+                            <fieldset class = "form__fieldset">
+                                <label for="message" class="form__label form__labelCatering">Your Message</label>
+                                <textarea type="message" cols="30" rows="10" id = "message" name = "message" class = "form__textarea form__textareaCatering" placeholder = "Your message"></textarea>
+                            </fieldset>
+                            <button class="imageTextBlock__btn imageTextBlock__btn--submit" type= "submit" value = "Send">Submit</button>
+                        </form>
+                    </div>
+
+                    <div class="catering__events">
+                        <h2 class="imageTextBlock__title">Catering for events</h2>
+                        <p class="imageTextBlock__text">We provide catering for all events from corporate events/meetings all the way to christening & birthday parties. See “Fresh Made Catering” on Facebook for more info.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="dedicatedTeam">
+            <div class="container dedicatedTeam__holder">
+            <h2 class="imageTextBlock__title">A dedicated team of staff</h2>
+                <p class="imageTextBlock__text imageTextBlock__text--dedicatedTeam">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Learn more about our staff</a>
+            </div> 
+        </section>
+    </main>
+
 <?php
 
 include "footer.php";

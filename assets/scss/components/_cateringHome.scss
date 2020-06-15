@@ -1,0 +1,64 @@
+.catering {
+
+    &__holder {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    &__formHolder {
+       margin-right: 5rem;
+    }
+
+    &__events {
+        max-width: 500px;
+    }
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .catering {
+        
+        &__holder {
+            justify-content: space-around;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xl) {
+    .catering {
+        
+        &__events {
+            padding-right: 4rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .catering {
+
+        &__holder {
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+        }
+
+        &__formHolder {
+            margin-top: 3rem;
+        }
+        
+        &__events {
+            padding-right: 0;
+        }
+    }
+}
+
+/*--------------------------------------*/

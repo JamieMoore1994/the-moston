@@ -1,0 +1,261 @@
+.imageTextBlock {
+    padding: 10rem 0;
+
+    &__holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        &--row-reverse {
+            flex-direction: row-reverse;
+        }
+    }
+
+    &__imageMaskLarge {
+        width: 460px;
+        height: 436px;
+        top: 0;
+        left: 0;
+
+        // section masks
+        &--sundayRoast {
+            clip-path: url(#homeIntro__largeImageMask);
+        }
+
+        &--breakfast {
+            clip-path: url(#breakfastLargeMask);
+        }
+
+        &--mealPrep {
+            clip-path: url(#bespokeMealPrepMask);
+        }
+
+        &--cakes {
+            clip-path: url(#cakesHomeMask);
+        }
+    }
+
+    &__img {
+        height: 120%;
+    }
+
+    &__circle {
+        height: 850px;
+        width: 850px;
+        position: absolute;
+        
+        // Background circles for seperate rows
+        &--one {
+            top: -44%;
+            left: -108%;
+        }
+
+        &--two {
+            top: -44%;
+            right: -126%;
+        }
+    }
+
+    // This is where the styling for the content blocks go
+    &__contentHolder {
+        max-width: 500px;
+    }
+
+    &__title {
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        color: $greyDark;
+        line-height: 1.7;
+        margin-bottom: 2rem;
+    }
+
+    // All text block buttons
+    &__btn {
+        padding: 1rem 2rem;
+        text-decoration: none;
+        background-color: $blackMain;
+        color: $whiteMain;
+        font-size: 1.8rem;
+        font-weight: 300;
+        border-radius: 5px;
+        transition: background-color 200ms ease;
+        cursor: pointer;
+
+        &:hover, &:focus {
+            background-color: rgba(0,0,0,0.8);
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//1600px
+@media screen and (max-width: $sl) {
+    .imageTextBlock {
+
+        &__circle {
+            height: 700px;
+            width: 700px;
+            position: absolute;
+            
+            // This is the sunday roast background image circle
+            &--one {
+                top: -44%;
+                left: -71%;
+            }
+    
+            &--two {
+                top: -44%;
+                right: -71%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .imageTextBlock {
+
+        &__holder {
+            justify-content: space-around;
+        }
+
+
+        &__imageHolder {
+            transform: scale(0.9);
+        }
+
+        &__circle {
+            transform: scale(0.9);
+
+            &--one {
+                top: -50%;
+                left: -49%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xl) {
+    .imageTextBlock {
+
+        &__holder {
+            justify-content: space-around;
+        }
+
+
+        &__imageHolder {
+            left: -3%;
+        }
+
+        &__circle {
+            transform: scale(0.9);
+
+            &--one {
+                top: -50%;
+                left: -49%;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .imageTextBlock {
+
+        &__imageHolder {
+            left: -5%;
+            transform: scale(0.8);
+
+            &--row-reverse {
+                left: 4%;
+            }
+        }
+
+        &__circle {
+
+            &--one {
+                top: -50%;
+                left: -49%;
+            }
+        }
+
+        // Text block content
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__text {
+            font-size: 1.5rem;
+        }
+
+        &__btn {
+
+            &--row-reverse {
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .imageTextBlock {
+
+        &__holder {
+            flex-direction: column;
+        }
+
+        &__imageHolder {
+            left: -33%;
+            transform: scale(.7);
+            top: -124px;
+
+            &--row-reverse {
+                left: 18%;
+            }
+        }
+
+        &__imageMaskLarge {
+            height: 400px;
+        }
+
+        &__circle {
+
+            &--one {
+                top: -45%;
+                left: -20%;
+            }
+        }
+
+        // Text block content
+        &__contentHolder {
+            margin-top: -10rem;
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+
+        &__text {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/*--------------------------------------*/

@@ -96,7 +96,7 @@
                 <div class="siteHeader__imageHolderLarge">
                     <div class="siteHeader__imageMaskLarge">
                         <img src="./assets/images/tester-image.jpg" alt="">
-                        <?php include "assets/svgs/navLargeImageMask.svg" ?>
+                        <?php include "assets/svgs/circleMasks/navClipMask.svg" ?>
                     </div>
                 </div>
 

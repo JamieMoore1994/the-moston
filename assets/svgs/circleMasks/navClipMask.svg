@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <defs>
+        <clipPath id = "navLargeImageMask">
+            <path d="M325.31,0C505,0,650.61,137.3,650.61,306.67S505,613.34,325.31,613.34,0,476,0,306.67,145.64,0,325.31,0Z" style="opacity:0.019999999552965164;isolation:isolate"/>
+        </clipPath>
+    </defs>
+</svg>

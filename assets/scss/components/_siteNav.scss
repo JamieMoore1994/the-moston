@@ -34,7 +34,7 @@
     }
 
     &__navLink {
-        font-size: 4rem;
+        font-size: 2.5rem;
         text-decoration: none;
         color: $greyDark;
         position: relative;
@@ -67,6 +67,8 @@
     // Image masking
     &__imageHolderLarge {
         position: relative;
+        top: 50px;
+        transform: scale(0.8);
     }
 
     &__imageMaskLarge {
@@ -90,13 +92,14 @@
         Responsive
 --------------------------------------*/
 
-//1200px
+//1440px
 @media screen and (max-width: $xxxl) {
     .siteHeader {
 
         &__largeBackgroundCircle {
+            transform: scale(0.8);
             bottom: -3%;
-            right: -22%;
+            right: -19%;
         }
     }
 }

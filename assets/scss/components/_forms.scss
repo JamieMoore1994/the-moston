@@ -1,0 +1,67 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    &__fieldset {
+        display: block;
+        border: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    &__label {
+        font-size: 2rem;
+        display: block;
+        width: 100%;
+    }
+
+    &__input {
+        display: block;
+        width: 100%;
+        padding: 1rem 2rem .2rem 0.5rem;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid $blackMain;
+    }
+
+    &__textarea {
+        display: block;
+        width: 100%;
+        padding: 1rem 2rem 2rem 0.5rem;
+    }
+
+    .imageTextBlock__btn--submit {
+        display: block;
+        width: 100%;
+        border: 0;
+    }
+}
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xl) {
+    .form {
+        
+        &__events {
+            padding-right: 4rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xs) {
+    .form {
+
+        &__label {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+/*--------------------------------------*/

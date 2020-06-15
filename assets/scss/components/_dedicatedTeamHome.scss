@@ -1,0 +1,18 @@
+.dedicatedTeam {
+    margin-top: 5rem;
+    background-color: rgba(0,0,0, 0.04);
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    clip-path: polygon(0 0, 100% 28%, 100% 100%, 0% 100%);
+
+    &__holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imageTextBlock__text--dedicatedTeam {
+        max-width: 700px;
+    }
+}
