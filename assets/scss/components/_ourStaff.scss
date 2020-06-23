@@ -7,16 +7,31 @@
     }
 
     &__list {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: nowrap;
+        display: grid;
+        /* Makes card layout responsive, no need for media queries */
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+        grid-gap: 2rem;
         list-style: none;
         margin-top: 7rem;
     }
 
     &__profile {
         padding: 2rem 3rem 2rem 0;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute; 
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 0.1rem;
+            background-color: black;
+        }
+    }
+
+    &__profile:nth-of-type(3)::after {
+        height: 0;
     }
 
     &__profile:nth-of-type(3) {
@@ -48,4 +63,90 @@
         padding-bottom: 1rem;
         color: $greyDark;
     }
+
+    &__backgroundCircle {
+        opacity: .05;
+        position: absolute;
+        width: 850px;
+        height: 850px;
+        bottom: -17%;
+        left: -18%;
+        z-index: -1;
+    }
 }
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .ourStaff {
+        
+        &__backgroundCircle {
+            left: -34%;
+        }
+    }   
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .ourStaff {
+        
+        &__backgroundCircle {
+            left: -46%;
+            bottom: -20%;
+        }
+    }   
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .ourStaff {
+        
+        &__backgroundCircle {
+            bottom: 4%;
+        }
+    }   
+}
+
+/*--------------------------------------*/
+
+//600px
+@media screen and (max-width: $small) {
+    .ourStaff {
+        
+        &__backgroundCircle {
+            transform: scale(0.7);
+        }
+    }   
+}
+
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .ourStaff {
+        
+        &__backgroundCircle {
+            left: -82%;
+        }
+    }   
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .ourStaff {
+        
+        &__backgroundCircle {
+            left: -95%;
+            bottom: 8%;
+        }
+    }   
+}
+
+/*--------------------------------------*/

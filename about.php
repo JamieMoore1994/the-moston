@@ -47,7 +47,7 @@ include "header.php";
 </section>
 
 <section class="aboutIntro">
-    <div class="container container--large pos--rel aboutIntro__holder">
+    <div class="container pos--rel aboutIntro__holder">
 
         <div class="aboutIntro__image">
             <img src="assets/images/aboutCafeImage.jpg" alt="The Moston cafe">
@@ -65,7 +65,7 @@ include "header.php";
     </div>
 </section>
 
-<section class="ourStaff">
+<section class="ourStaff pos--rel">
     <h2 class="ourStaff__title">Our Staff</h2>
     <div class="container container--large">
         <ul class="ourStaff__list">
@@ -104,17 +104,20 @@ include "header.php";
                     <img src="assets/images/chefImg.png" alt="Chris Carpenter">
                 </div>
                 <div class="ourStaff__profileContent">
-                    <h3 class="ourStaff__staffName">Chris Carpenter</h3>
-                    <h4 class="ourStaff__staffJobTitle">Co-founder/Owner/Chef/Cake artist</h4>
-                    <p class="ourStaff__profileDescription">Hi I’m Chris, experienced chef & self taught cake artist, I have worked in many kitchens from small pubs to 3 rosette restaurants serving some of the finest foods. I Have always worked towards opening my own café/cake shop. Dreams do come true.</p>
+                    <h3 class="ourStaff__staffName">Paul</h3>
+                    <h4 class="ourStaff__staffJobTitle">Head Chef</h4>
+                    <p class="ourStaff__profileDescription">Hi, I’m Paul, I'm a very experienced chef with a passion for cooking. I love to make food people will 
+                    Enjoy eating.  I’m also a family man and that’s what matters to me most, so bringing a community together along with my partners will be a good achievement for us all.</p>
 
-                    <p class="ourStaff__profileDescription">For the past 3 years or so I have been building Cakey (online cake shop) pushing the limits and myself to bring people professional but more than anything affordable bespoke cakes. I saw the property to rent and before I stepped foot inside, I knew this was happening.</p>
+                    <p class="ourStaff__profileDescription">I started a catering business (Fresh Made Catering) after working at so many events for other people i decided it was time to take a leap. Now we have teamed up with two guys who are absolutely top at what they do to offer the community the best food they can get.</p>
 
-                    <p class="ourStaff__profileDescription">My aim and goals opening the Moston is to not only produce the best fry up and café around, but to bring community spirit back into the area.  We aim to bring you high quality food at a fraction of restaurant prices, introducing steak nights and similar events.  Date nights right around the corner and barley breaking the bank. I am looking forward to expanding your taste buds.</p>
+                    <p class="ourStaff__profileDescription">My aim opening this café is bringing the people of Moston what they’ve always needed, a banging café, while using my knowledge as a qualified chef to add to what Moston has been longing for, a healthy meal prep company an all round community cafe and cake shop wrapped up into one. I look forward to seeing you all in our café and enjoying our great tasting food!</p>
                 </div>
             </li>
         </ul>
     </div>
+
+    <?php include "assets/svgs/aboutChefsCircle.svg" ?>
 </section>
 
 

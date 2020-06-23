@@ -27,13 +27,13 @@
                 <h4 class="siteFooter__title">Useful Links</h4>
                 <ul class="siteFooter__list siteFooter__list--hours">
                     <li class="siteFooter__listItem">
-                        <a href="" class="siteFooter__listLink">Home</a>
+                        <a href="/" class="siteFooter__listLink">Home</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="" class="siteFooter__listLink">About</a>
+                        <a href="/about.php" class="siteFooter__listLink">About</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="" class="siteFooter__listLink">Menus</a>
+                        <a href="/menus.php" class="siteFooter__listLink">Menus</a>
                     </li>
                     <li class="siteFooter__listItem">
                         <a href="" class="siteFooter__listLink">Meal Prep</a>

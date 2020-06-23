@@ -1,0 +1,71 @@
+.roastMenu {
+    background-image: url('../assets/images/sundayRoastLarge.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);   
+    }
+
+    &__holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    &__title {
+        color: $whiteMain;
+        font-size: 3rem;
+        padding-bottom: 3rem;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        color: $whiteMain;
+        line-height: 1.2;
+        padding-bottom: 2rem;
+        font-weight: 300;
+        text-align: center;
+        opacity: 0.9;
+        max-width: 700px;
+    }
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .roastMenu {
+
+        .imageTextBlock__btn--white {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $large) {
+    .roastMenu {
+        min-height: 30vh;
+
+        &__text {
+            font-size: 1.7rem;
+        }
+    }
+}
+
+/*--------------------------------------*/

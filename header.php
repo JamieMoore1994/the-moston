@@ -56,7 +56,7 @@
                 </ul>
             </div>
 
-            <a href="#" class="siteHeader__burgerButton">
+            <a href="" class="siteHeader__burgerButton">
                 <span class="siteHeader__burgerLine line1"></span>
                 <span class="siteHeader__burgerLine line2"></span>
                 <span class="siteHeader__burgerLine line3"></span>

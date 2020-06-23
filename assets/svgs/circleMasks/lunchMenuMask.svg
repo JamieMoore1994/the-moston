@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="436" viewBox="0 0 460 436">
+    <defs>
+        <clipPath id = "lunchMenuLargeMask">
+            <path d="M230,0C357,0,460,97.6,460,218S357,436,230,436,0,338.4,0,218,103,0,230,0Z"/>
+        </clipPath>
+    </defs>
+</svg>

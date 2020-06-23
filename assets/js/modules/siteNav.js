@@ -2,6 +2,7 @@ const burger = document.querySelector('.siteHeader__burgerButton');
 const body = document.querySelector('body');
 
 function toggleNavBurger(e) {
+    e.preventDefault();
     if(!e.target.classList.contains('active')) {
         e.target.classList.add('active');
         gsap.to(burger, 0.5, {y: '5'});
