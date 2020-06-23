@@ -71,13 +71,13 @@
             <nav class="siteHeader__navMenu">
                 <ul class="siteHeader__navList">
                     <li class="siteHeader__navListItem">
-                        <a href="#" class="siteHeader__navLink" title = "Home">Home</a>
+                        <a href="/" class="siteHeader__navLink" title = "Home">Home</a>
                     </li>
                     <li class="siteHeader__navListItem">
-                        <a href="#" class="siteHeader__navLink" title = "About">About</a>
+                        <a href="about.php" class="siteHeader__navLink" title = "About">About</a>
                     </li>
                     <li class="siteHeader__navListItem">
-                        <a href="#" class="siteHeader__navLink" title = "Menus">Menus</a>
+                        <a href="menus.php" class="siteHeader__navLink" title = "Menus">Menus</a>
                     </li>
                     <li class="siteHeader__navListItem">
                         <a href="#" class="siteHeader__navLink" title = "Meal prep">Meal Prep</a>

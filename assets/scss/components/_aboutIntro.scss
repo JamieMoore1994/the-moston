@@ -1,0 +1,146 @@
+.aboutIntro {
+    padding: 10rem 0;
+
+    &__holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__greyCircle {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -122%;
+        z-index: -1;
+        opacity: 0.05;
+    }
+
+    &__image {
+        padding-right: 10rem;
+    }
+
+    &__text {
+        max-width: 500px;
+    }
+
+    &__title {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__textContent {
+        font-size: 1.8rem;
+        color: $greyDark;
+        padding-bottom: 1rem;
+    }
+
+}
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xl) {
+    .aboutIntro {
+
+        &__image {
+            padding-right: 6rem
+        }
+
+        &__title {
+            font-size: 2.6rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .aboutIntro {
+
+        &__holder {
+            flex-direction: column;
+        }
+
+        &__greyCircle {
+            top: -17%;
+            left: 13%;
+        }
+
+        &__image {
+            padding: 0 12rem 2rem 12rem;
+        }
+
+        &__text {
+            max-width: 650px;
+        }
+
+        &__title {
+            font-size: 2.4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__textContent {
+            font-size: 1.7rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .aboutIntro {
+
+        &__image {
+            padding: 0 0 2rem 0;
+        }
+
+        &__greyCircle {
+            top: -10%;
+        }
+
+        &__text {
+            max-width: 100%;
+        }
+
+        &__title {
+            font-size: 2.2rem;
+        }
+
+        &__textContent {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .aboutIntro {
+
+        &__greyCircle {
+            top: -20%;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .aboutIntro {
+
+        &__title {
+            font-size: 2.2rem;
+        }
+
+        &__textContent {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/*--------------------------------------*/

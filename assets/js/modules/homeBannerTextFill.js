@@ -9,5 +9,8 @@ function removeFill() {
     textFillDiv.classList.remove('js-show');
 }
 
-buttonHomeBanner.addEventListener('mouseenter', fillText);
-buttonHomeBanner.addEventListener('mouseleave', removeFill);
+// Causing issue on other pages other than the homepage
+if(window.location.pathname === '/index.php') {
+    buttonHomeBanner.addEventListener('mouseenter', fillText);
+    buttonHomeBanner.addEventListener('mouseleave', removeFill);
+}

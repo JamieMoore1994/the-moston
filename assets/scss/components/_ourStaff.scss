@@ -1,0 +1,51 @@
+.ourStaff {
+    padding: 5rem 0;
+
+    &__title {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        list-style: none;
+        margin-top: 7rem;
+    }
+
+    &__profile {
+        padding: 2rem 3rem 2rem 0;
+    }
+
+    &__profile:nth-of-type(3) {
+        padding-right: 0;
+    }
+
+    &__staffName {
+        font-size: 2.2rem;
+
+        &--large {
+            transform: translateY(-40px);
+        }
+    }
+
+    &__profileContent {
+        padding-top: 2rem;
+    }
+
+    &__staffJobTitle {
+        font-size: 1.4rem;
+        max-width: 70%;
+        line-height: 1.2;
+        opacity: 0.6;
+        margin-bottom: 1rem;
+    }
+
+    &__profileDescription {
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+        color: $greyDark;
+    }
+}
