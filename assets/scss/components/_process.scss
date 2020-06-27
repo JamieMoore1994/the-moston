@@ -1,0 +1,356 @@
+.process {
+    margin: 10rem 0;
+
+    &__title {
+        text-align: center;
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 4rem;
+    }
+
+    &__holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__description {
+        max-width: 500px;
+    }
+
+    &__descriptionText {
+        font-size: 2rem;
+        color: $greyDark;
+        padding-bottom: 2rem;
+    }
+
+    &__steps {
+        width: 50%;
+        margin-left: 12rem;
+    }
+
+    &__stepsListHolder {
+        display: flex;
+        padding-bottom: 5rem;
+
+        &--reverse {
+            flex-direction: row-reverse;
+
+            .process__stepsItem:nth-of-type(2) {
+                margin-left: 0;
+                margin-right: 5rem;
+            }
+        }
+        
+    }
+
+    &__stepsList {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+    &__stepsItem {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__stepsItem:nth-of-type(even) {
+        margin-left: 5rem;
+    }
+
+    &__stepsIcon {
+        height: 10rem;
+        width: 10rem;
+        margin-bottom: 2rem;
+    }
+
+    &__stepsDescription {
+        font-size: 1.8rem;
+        color: $greyDark;
+    }
+
+    &__stepsArrow {
+        height: 3rem;
+        width: 3rem;
+        position: absolute;
+
+        &--one {
+            right: 0;
+            top: 22%;
+        }
+
+        &--two {
+            bottom: -12%;
+            left: 20%;
+            transform: rotate(90deg);
+        }
+
+        &--three {
+            left: -37%;
+            top: 22%;
+            transform: rotate(180deg);
+        }
+
+        &--four {
+            height: 5rem;
+            width: 5rem;
+            bottom: -33%;
+            left: 40%;
+            transform: rotate(90deg);
+        }
+
+        
+    }
+
+    &__circle {
+        top: -30%;
+        right: -5%;
+    }
+}
+
+/*--------------------------------------*/
+
+//1600px
+@media screen and (max-width: $sl) {
+    .process {
+
+        &__circle {
+            right: -9%;
+        }
+    }  
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .process {
+
+        &__circle {
+            right: -17%;
+        }
+    }  
+}
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xl) {
+    .process {
+
+        &__steps {
+            margin-left: 0;
+        }
+
+        &__descriptionText {
+            font-size: 1.8rem;
+        }
+
+        &__steps {
+            transform: scale(0.8);
+        }
+    }  
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .process {
+
+        &__holder {
+            flex-direction: column;
+        }
+
+        &__description {
+            max-width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__stepsListHolder {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            &--reverse {
+
+                .process__stepsItem:nth-of-type(2) {
+                    grid-column: 1;
+                    grid-row: 1;
+                    margin-right: 0;
+                }
+            }
+        }
+
+        &__steps {
+            transform: scale(1);
+            margin-top: 5rem;
+            width: 100%;
+        }
+
+        &__stepsItem {
+            width: auto;
+            align-items: center;
+        }
+
+        &__stepsItem:nth-of-type(even) {
+            margin-left: 0;
+        }
+
+        &__stepsDescription {
+            max-width: 200px;
+            text-align: center;
+        }
+
+        &__stepsArrow {
+
+            &--one {
+                right: -3%;
+            }
+
+            &--two {
+                bottom: -20%;
+                left: 47%;
+            }
+
+            &--three {
+                left: -3%;
+            }
+
+            &--four {
+                bottom: -196%;
+                left: 46%;
+            }
+        }    
+    }  
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .process {
+
+        &__description {
+            max-width: 100%;
+        }
+
+    }  
+}
+
+/*--------------------------------------*/
+
+//600px
+@media screen and (max-width: $small) {
+    .process {
+
+        &__descriptionText {
+            font-size: 1.6rem;
+        }
+
+        &__steps {
+            transform: scale(0.9);
+        }
+
+        &__stepsArrow--four {
+            bottom: -215%;
+        }
+
+        &__circle {
+            right: -29%;
+            top: -33%;
+            transform: scale(0.8);
+        }
+
+    }  
+}
+
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .process {
+
+        &__stepsArrow--four {
+            bottom: -196%;
+        }
+
+        &__circle {
+            right: -42%;
+            top: -24%;
+        }
+
+    }  
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .process {
+
+        &__stepsDescription {
+            font-size: 1.5rem;
+        }
+
+        &__stepsIcon {
+            height: 8rem;
+            width: 8rem;
+        }
+
+        &__stepsArrow {
+            transform: scale(0.9);
+
+            &--one {
+                right: -13%;
+            }
+
+            &--two {
+                bottom: -23%;
+                left: 42%;
+                transform: rotate(90deg);
+            }
+
+            &--three {
+                transform: rotate(180deg);
+            }
+
+            &--four {
+                bottom: -146%;
+                left: 44%;
+                transform: scale(0.9) rotate(90deg);
+            }
+        }
+
+        &__circle {
+            right: -73%;
+            top: -26%;
+            transform: scale(0.7);
+        }
+
+    }  
+}
+
+/*--------------------------------------*/
+
+//350px
+@media screen and (max-width: $t) {
+    .process {
+
+        &__stepsArrow--four {
+            bottom: -122%;
+            left: 44%;
+            transform: scale(.8) rotate(90deg);
+        }
+    }
+}  
+
+
+/*--------------------------------------*/

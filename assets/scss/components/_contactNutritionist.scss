@@ -1,0 +1,161 @@
+.contactNutritionist {
+    margin: 12rem 0;
+
+    &__holder {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 14rem;
+    }
+
+    &__title {
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-bottom: 4rem;
+    }
+
+    &__text {
+        font-size: 2rem;
+        color: $greyDark;
+        max-width: 500px;
+    }
+
+    &__arrow {
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+
+    &__circle {
+        position: absolute;
+        bottom: -100%;
+        left: -21%;
+    }
+}
+
+/*--------------------------------------*/
+
+//1600px
+@media screen and (max-width: $sl) {
+    .contactNutritionist {
+
+        &__circle {
+            bottom: -86%;
+            left: -13%;
+        }
+    }  
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .contactNutritionist {
+
+        &__circle {
+            bottom: -83%;
+            left: -22%;
+        }
+    }  
+}
+
+/*--------------------------------------*/
+
+//1080px
+@media screen and (max-width: $xl) {
+    .contactNutritionist {
+
+        &__holder {
+            grid-gap: 11rem;
+        }
+
+        &__circle {
+            bottom: -83%;
+            left: -32%;
+            transform: scale(0.9);
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .contactNutritionist {
+        margin: 0 0 5rem 0;
+
+        &__holder {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 3rem;
+        }
+
+        &__text {
+            max-width: 100%;
+        }
+
+        &__arrow {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        &__circle {
+            bottom: -12%;
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//600px
+@media screen and (max-width: $small) {
+    .contactNutritionist {
+        
+        &__text {
+            font-size: 1.6rem;
+        }
+
+        &__circle {
+            bottom: -15%;
+            left: -53%;
+            transform: scale(.8);
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .contactNutritionist {
+
+        &__circle {
+            bottom: -18%;
+            left: -63%;
+            transform: scale(.7);
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .contactNutritionist {
+
+        &__circle {
+            bottom: -20%;
+            left: -78%;
+        }
+    } 
+}
+
+/*--------------------------------------*/

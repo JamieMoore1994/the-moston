@@ -10,7 +10,7 @@ function removeFill() {
 }
 
 // Causing issue on other pages other than the homepage
-if(window.location.pathname === '/') {
+if(document.querySelector('.homeBanner__btn')) {
     buttonHomeBanner.addEventListener('mouseenter', fillText);
     buttonHomeBanner.addEventListener('mouseleave', removeFill);
 }

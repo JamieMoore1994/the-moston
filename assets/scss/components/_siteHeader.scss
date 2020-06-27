@@ -86,3 +86,34 @@
         background-color: $whiteMain;
     }
 }
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .siteHeader{
+
+        &__holder {
+            justify-content: space-around;
+        }
+        
+        &__siteLogo {
+            width: 20rem;
+        }
+
+    }  
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .siteHeader{
+        
+        &__siteLogo {
+            width: 18rem;
+        }
+
+    }  
+}
+
+/*--------------------------------------*/

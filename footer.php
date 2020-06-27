@@ -36,13 +36,13 @@
                         <a href="/menus.php" class="siteFooter__listLink">Menus</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="" class="siteFooter__listLink">Meal Prep</a>
+                        <a href="/meal-prep.php" class="siteFooter__listLink">Meal Prep</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="" class="siteFooter__listLink">Cakes</a>
+                        <a href="/cakes.php" class="siteFooter__listLink">Cakes</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="" class="siteFooter__listLink">Contact</a>
+                        <a href="/contact.php" class="siteFooter__listLink">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -70,6 +70,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js" integrity="sha256-MVs0yHYDQBhIRZrNeWB1YaNMrGbFwowIEPIl3um5MZE=" crossorigin="anonymous"></script>
 
+<script src="assets/js/siema.min.js"></script>
 <script src="./dest/all.js"></script>
 </body>
 </html>

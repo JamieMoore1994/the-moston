@@ -271,6 +271,18 @@
 
 /*--------------------------------------*/
 
+//500px
+@media screen and (max-width: $xs) {
+    .homeBanner {
+
+        &__images {
+            margin-top: 2rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
 //400px
 @media screen and (max-width: $xxs) {
     .homeBanner {
