@@ -3,7 +3,7 @@ $title = "Our Menus - The Moston Cafe";
 
 include "header.php";
 ?>
-
+<main data-barba = "container" data-barba-namespace = "contact">
 <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -45,11 +45,11 @@ include "header.php";
         </div>
 </section>
 
-<section class="contactUs pos--rel">
+<section class="contactUs pos--rel" id = "content">
     <div class="container contactUs__holder">
         <div class="contactUs__intro">
             <h2 class="process__title">Get in touch with us!</h2>
-            <p class="contactUs__text">Want to book in with us or looking for more information about our cafe ? fill out our contact form or alternatively contact us below in whatever way is best for you.</p>
+            <p class="contactUs__text">Want to book in with us for a sunday roast or looking for more information about our cafe ? fill out our contact form or alternatively contact us below in whatever way is best for you.</p>
 
             <div class="contactUs__alternative">
                 <ul class="contactUs__list">
@@ -86,9 +86,6 @@ include "header.php";
 
     <?php include "assets/svgs/contactUsCircle.svg" ?>
 </section>
-
-
-
 
 
 <?php

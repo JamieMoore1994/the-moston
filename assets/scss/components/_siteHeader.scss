@@ -1,8 +1,9 @@
 .siteHeader {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
+    min-height: 9vh;
     background-color: $blackMain;
     padding: 2rem 0;
 

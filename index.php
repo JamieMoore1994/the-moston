@@ -3,7 +3,7 @@ $title = "The Moston Cafe - Manchester";
 
 include "header.php";
 ?>
-
+<main data-barba = "container" data-barba-namespace = "home">
     <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -13,7 +13,7 @@ include "header.php";
                 </h1>
 
 
-                <a href="#" class="btn btn--black homeBanner__btn">Check our menus</a>
+                <a href="/menus.php" class="btn btn--black homeBanner__btn">Check our menus</a>
 
             </div>
 
@@ -57,11 +57,8 @@ include "header.php";
             </div>
         </div>
     </section>
-
-    <main id = "content">
-
         <!--Sunday roast section home--->
-        <section class="imageTextBlock homeIntro homeIntro--sundayRoast">
+        <section class="imageTextBlock homeIntro homeIntro--sundayRoast" id = "content">
             <div class="container">
 
                 <!--This is a text block with an image to the left-->
@@ -162,7 +159,7 @@ include "header.php";
                         <h2 class="imageTextBlock__title">A range of menus</h2>
                         <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
-                        <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our menus</a>
+                        <a href="/menus.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our elfgmwe;lmenus</a>
                     </div>
                 </div>
 
@@ -207,7 +204,6 @@ include "header.php";
                 <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Learn more about our staff</a>
             </div> 
         </section>
-    </main>
 
 <?php
 

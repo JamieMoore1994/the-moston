@@ -16,7 +16,7 @@
     <!--Canonical link-->
     <link rel="canonical" href="<?php echo $canonical ?>">
 </head>
-<body>
+<body data-barba = "wrapper">
 
 <!--Accessibility button-->
 <a href="#content" class = "skipLink">Skip to content</a>
@@ -108,4 +108,5 @@
 
 
 </header>
+
     

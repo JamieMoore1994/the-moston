@@ -3,7 +3,7 @@ $title = "Our Menus - The Moston Cafe";
 
 include "header.php";
 ?>
-
+<main data-barba = "container" data-barba-namespace = "mealPrep">
 <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -45,7 +45,7 @@ include "header.php";
         </div>
 </section>
 
-<section class="process pos--rel">
+<section class="process pos--rel" id = "content">
     <h2 class="process__title">The Process</h2>
 
     <div class="container process__holder">
@@ -122,8 +122,6 @@ include "header.php";
 
     <?php include "assets/svgs/mealPrepBackgroundCircleTwo.svg" ?>
 </section>
-
-
 
 <?php
 

@@ -13,6 +13,13 @@ body {
     min-width: 320px;
     line-height: 1.5;
     overflow-x: hidden;
+    position: relative
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    top: 9vh;
 }
 
 img {

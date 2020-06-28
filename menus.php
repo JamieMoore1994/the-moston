@@ -3,7 +3,7 @@ $title = "Our Menus - The Moston Cafe";
 
 include "header.php";
 ?>
-
+<main data-barba = "container" data-barba-namespace = "menus">
 <section class="homeBanner homeFill">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -45,7 +45,7 @@ include "header.php";
         </div>
 </section>
 
-<section class="menus pos--rel">
+<section class="menus pos--rel" id = "content">
     <div class="container">
         <span class="menus__tagline pos--rel">The new best menus in Moston</span>
         <h2 class="menus__title">Look at some of our delicious food</h2>
@@ -165,10 +165,6 @@ include "header.php";
         <a href="#" class="imageTextBlock__btn imageTextBlock__btn--white pos--rel z--10">View our moston box menu</a>
     </div>
 </section>
-
-
-
-
 
 <?php
 
