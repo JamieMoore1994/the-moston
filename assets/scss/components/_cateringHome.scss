@@ -1,14 +1,14 @@
 .catering {
 
     &__holder {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row-reverse;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     &__formHolder {
        margin-right: 5rem;
+       grid-column: 2;
+       grid-row: 1;
     }
 
     &__events {
@@ -46,16 +46,25 @@
 @media screen and (max-width: $large) {
     .catering {
 
-        &__holder {
-            flex-direction: column-reverse;
-            justify-content: flex-start;
-        }
-
         &__formHolder {
             margin-top: 3rem;
         }
-        
+    }
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .catering {
+
+        &__holder {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
         &__events {
+            max-width: 100%;
             padding-right: 0;
         }
     }

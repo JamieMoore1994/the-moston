@@ -18,6 +18,7 @@
         margin-bottom: 3rem;
         position: relative;
         overflow: hidden;
+        padding-right: 2rem;
     }
 
     &__textUnderline {
@@ -154,7 +155,8 @@
             }
 
             &--three {
-                left: -34%;
+                right: 0;
+                left: unset;
             }
         }
     }
@@ -198,7 +200,8 @@
             }
 
             &--three {
-                bottom: 3%;
+                right: -26%;
+                bottom: -15%;
             }
         }
     }
@@ -227,10 +230,6 @@
             &--two {
                 bottom: -15%;
                 left: -30%;
-            }
-
-            &--three {
-                left: -25%;
             }
         }
     }
@@ -268,8 +267,8 @@
             }
 
             &--three {
-                bottom: 14%;
-                left: -10%;
+                right: -12%;
+                bottom: -7%;
             }
         }
     }

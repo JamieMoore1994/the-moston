@@ -78,7 +78,7 @@ include "header.php";
                         <p class="imageTextBlock__text">We provide Sunday lunch via appointment & takeaway. To takeaway just make sure you ring up to order before coming to collect.
                         Our appointment slots are 12pm & 2pm, make sure you ring up or email as early as possible to make your booking.</p>
 
-                        <a href="#" class="imageTextBlock__btn">Book now</a>
+                        <a href="/contact.php" class="imageTextBlock__btn">Book now</a>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@ include "header.php";
                         <h2 class="imageTextBlock__title">A range of menus</h2>
                         <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
-                        <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our menus</a>
+                        <a href="/menus.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our menus</a>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@ include "header.php";
                         <h2 class="imageTextBlock__title">Bespoke meal prep</h2>
                         <p class="imageTextBlock__text">We provide healthy meal preps to suit your needs, go to our ‘Meal Prep’ page to find out more information and get in touch.</p>
 
-                        <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out meal prep</a>
+                        <a href="/meal-prep.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out meal prep</a>
                     </div>
                 </div>
 
@@ -156,10 +156,10 @@ include "header.php";
                     </div>
 
                     <div class="imageTextBlock__contentHolder">
-                        <h2 class="imageTextBlock__title">A range of menus</h2>
+                        <h2 class="imageTextBlock__title">Bespoke cakes</h2>
                         <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
-                        <a href="/menus.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our elfgmwe;lmenus</a>
+                        <a href="/cakes.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our cakes</a>
                     </div>
                 </div>
 
@@ -190,7 +190,7 @@ include "header.php";
 
                     <div class="catering__events">
                         <h2 class="imageTextBlock__title">Catering for events</h2>
-                        <p class="imageTextBlock__text">We provide catering for all events from corporate events/meetings all the way to christening & birthday parties. See “Fresh Made Catering” on Facebook for more info.</p>
+                        <p class="imageTextBlock__text">We provide catering for all events from corporate events/meetings all the way to christening & birthday parties. See <a class = "externalLinks" href="https://www.facebook.com/freshmadecatering1/" title = "Fresh Made Catering Facebook page">Fresh Made Catering</a> on Facebook for more information or fill out our contact form with any enquiries.</p>
                     </div>
                 </div>
 
@@ -201,7 +201,7 @@ include "header.php";
             <div class="container dedicatedTeam__holder">
             <h2 class="imageTextBlock__title">A dedicated team of staff</h2>
                 <p class="imageTextBlock__text imageTextBlock__text--dedicatedTeam">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Learn more about our staff</a>
+                <a href="/about.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Learn more about our staff</a>
             </div> 
         </section>
 

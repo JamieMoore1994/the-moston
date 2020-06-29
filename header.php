@@ -33,7 +33,7 @@
             <div class="siteHeader__socials">
                 <ul class="siteHeader__socialList">
                     <li class="siteHeader__socialListItem">
-                        <a href="#" class = "siteHeader__socialListLink">
+                        <a href="https://www.facebook.com/TheMostoncafe/" class = "siteHeader__socialListLink" title = "The Moston Cafe Facebook page">
                             <svg aria-labelledby="facebook-header"
                             class = "siteHeader__socialIcon">
                             <title id = "facebook-header">The Mostons Facebook Page</title>
@@ -44,7 +44,7 @@
                     </li>
 
                     <li class="siteHeader__socialListItem">
-                        <a href="#" class = "siteHeader__socialListLink">
+                        <a href="https://www.instagram.com/themostoncafe/?hl=en" class = "siteHeader__socialListLink" title = "The Moston Cafe Instagram page">
                             <svg aria-labelledby="instagram-header"
                             class = "siteHeader__socialIcon">
                             <title id = "instagram-header">The Mostons Instagram Page</title>

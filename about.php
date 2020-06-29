@@ -57,7 +57,7 @@ include "header.php";
                 <h2 class="aboutIntro__title">What is The Moston?</h2>
                 <p class="aboutIntro__textContent">Community café- we aim to bring the community spirit back to Moston by supplying it with what its longed for, a clean café with top standard food. We also aim to introduce themed nights e.g. steak & curry nights etc. along with eating challenges for the public to try their hand at.</p>
 
-                <p class="aboutIntro__textContent">Follow us on *Facebook* & *Instagram* to keep up to date with our latest eating challenges & more info on when we will be introducing themed nights.</p>
+                <p class="aboutIntro__textContent">Follow us on <a class = "externalLinks" href="https://www.facebook.com/TheMostoncafe/" title = "The Moston Cafe Instagram page">Facebook</a> & <a class = "externalLinks" href="https://www.instagram.com/themostoncafe/?hl=en" title = "The Moston Cafe Instagram page">Instagram</a> to keep up to date with our latest eating challenges & more info on when we will be introducing themed nights.</p>
             </div>
 
 

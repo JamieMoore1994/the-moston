@@ -160,9 +160,9 @@ include "header.php";
 <section class="roastMenu pos--rel">
     <div class="container roastMenu__holder">
         <h2 class="roastMenu__title">Sunday Roast Dinners</h2>
-        <p class="roastMenu__text">Our fantastic chefs will be bringing you your new go to place for a special Sunday roast. You won’t regret it!</p>
+        <p class="roastMenu__text">Our fantastic chefs will be bringing you your new go to place for a special Sunday roast. We even make Yorkshire pudding wraps.</p>
 
-        <a href="#" class="imageTextBlock__btn imageTextBlock__btn--white pos--rel z--10">View our moston box menu</a>
+        <a href="/contact.php" class="imageTextBlock__btn imageTextBlock__btn--white pos--rel z--10">Book in now</a>
     </div>
 </section>
 

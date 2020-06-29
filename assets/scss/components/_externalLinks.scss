@@ -1,0 +1,11 @@
+.externalLinks {
+    color: $greyDark;
+    transition: all 200ms ease;
+    border-radius: 1rem;
+
+    &:hover, &:focus {
+        background-color: $greyDark;
+        color: white;
+        padding: 0.5rem 1rem;
+    }
+}

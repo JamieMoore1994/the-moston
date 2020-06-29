@@ -1,4 +1,3 @@
-
 <footer class="siteFooter">
     <div class="container">
     
@@ -50,7 +49,7 @@
             <div class="siteFooter__column">
                 <h4 class="siteFooter__title">Get in touch</h4>
                 <ul class="siteFooter__list siteFooter__list--hours">
-                    <li class="siteFooter__listItem">Email: <a href="mailto: kai@themoston.com" class = "siteFooter__mailTo" title = "Email staff member Kai">kai@themoston.com</a></li>
+                    <li class="siteFooter__listItem">Email: <a href="mailto: info@themoston.com" class = "siteFooter__mailTo" title = "Email staff member Kai">info@themoston.com</a></li>
                     <li class="siteFooter__listItem">Mobile: 00000000000</li>
                 </ul>
             </div>
@@ -68,6 +67,10 @@
     
 </footer>
 </main>
+
+<div class="pageTransition">
+    <?php include "assets/svgs/siteLogoTransition.svg" ?>
+</div>
 
 <script src="https://unpkg.com/@barba/core"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js" integrity="sha256-MVs0yHYDQBhIRZrNeWB1YaNMrGbFwowIEPIl3um5MZE=" crossorigin="anonymous"></script>
