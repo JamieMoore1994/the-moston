@@ -6,7 +6,7 @@
     min-height: 9vh;
     background-color: $blackMain;
     padding: 2rem 0;
-    z-index: 200;
+    z-index: 10;
 
     &__holder {
         display: flex;
@@ -14,7 +14,7 @@
         align-items: center;
         flex-wrap: nowrap;
         position: relative;
-        z-index: 200;
+        z-index: 10;
     }
 
     &__siteLogo {

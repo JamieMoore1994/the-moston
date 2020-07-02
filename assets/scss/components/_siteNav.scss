@@ -7,9 +7,10 @@
         right: 0;
         bottom: 0;
         background-color: white;
-        clip-path: circle(50px at 100% -10%);
+        // clip-path: circle(50px at 100% -10%);
         pointer-events: none;
         // visibility: hidden;
+        transform: translateX(100%);
     }
 
     &__navHolder {

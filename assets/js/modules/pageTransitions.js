@@ -49,7 +49,7 @@ barba.init({
                 tl.to('.line1', 1, {rotate: "0", y: 0, background: '#f2f2f2'}, "<");
                 tl.to('.line2', 1, {rotate: "0", y: 0, background: '#f2f2f2', width: '80%'}, "<");
                 tl.to('.line3', 1, {opacity: '1'}, "<");
-                tl.to('.siteHeader__nav', 0.5, {clipPath: "circle(50px at 100% -10%)"}, "<");
+                tl.to('.siteHeader__nav', 1, {x: '100%'}, "<");
                 tl.to('.logoColor', 1, {fill: '#f2f2f2'}, "<");
                 tl.to('.siteHeader__socialIcon', 1, {y: 0, fill: '#f2f2f2', clearProps: 'all'}, "<");
                 body.classList.remove('scrollHidden');

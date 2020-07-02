@@ -157,12 +157,38 @@ include "header.php";
     </div>
 </section>
 
+<section class="imageTextBlock">
+    <div class="container">
+
+        <!--This is a text block with an image to the left-->
+        <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
+            <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
+                <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--lunchMenu imageTextBlock__imageMaskLarge--row-reverse">
+                    <img src="assets/images/breakfastLargeSectionImage.jpg" alt="" class = "imageTextBlock__img">
+
+                    <?php include "assets/svgs/circleMasks/lunchMenuMask.svg" ?>
+                </div>
+
+                <?php include "assets/svgs/lunchMenuLargeCircle.svg" ?>
+            </div>
+
+            <div class="imageTextBlock__contentHolder">
+                <h2 class="imageTextBlock__title">The Slimming World Menu</h2>
+                <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                <a href="#" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">View our slimming world menu</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 <section class="roastMenu pos--rel">
     <div class="container roastMenu__holder">
         <h2 class="roastMenu__title">Sunday Roast Dinners</h2>
         <p class="roastMenu__text">Our fantastic chefs will be bringing you your new go to place for a special Sunday roast. We even make Yorkshire pudding wraps.</p>
 
-        <a href="/contact.php" class="imageTextBlock__btn imageTextBlock__btn--white pos--rel z--10">Book in now</a>
+        <a href="contact.php" class="imageTextBlock__btn imageTextBlock__btn--white pos--rel z--10">Book in now</a>
     </div>
 </section>
 
