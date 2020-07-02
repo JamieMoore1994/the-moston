@@ -9,6 +9,12 @@
         align-items: center;
     }
 
+    &__intro {
+        overflow: hidden;
+        position: relative;
+        padding: 3rem 0;
+    }
+
     &__title {
         color: $whiteMain;
         font-weight: 500;
@@ -70,6 +76,7 @@
 
     &__maskedImages {
         height: 130%;
+        z-index: 20;
     }
 
     // Small image mask size
@@ -182,6 +189,10 @@
 
         &__title {
             text-align: center;
+        }
+
+        .btn--black {
+            margin-top: 1.2rem;
         }
 
         &__imageHolderLarge {

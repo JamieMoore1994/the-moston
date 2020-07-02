@@ -24,7 +24,7 @@
 <header class="siteHeader">
     <div class="container siteHeader__holder">
 
-        <a href="index.php" title = "Homepage">
+        <a class = "siteHeader__logoBtn" href="index.php" title = "Homepage">
             <?php include "assets/svgs/siteLogo.svg" ?>
         </a>
 
@@ -74,19 +74,19 @@
                         <a href="/" class="siteHeader__navLink" title = "Home">Home</a>
                     </li>
                     <li class="siteHeader__navListItem">
-                        <a href="/about.php" class="siteHeader__navLink" title = "About">About</a>
+                        <a href="about.php" class="siteHeader__navLink" title = "About">About</a>
                     </li>
                     <li class="siteHeader__navListItem">
-                        <a href="/menus.php" class="siteHeader__navLink" title = "Menus">Menus</a>
+                        <a href="menus.php" class="siteHeader__navLink" title = "Menus">Menus</a>
                     </li>
                     <li class="siteHeader__navListItem">
-                        <a href="/meal-prep.php" class="siteHeader__navLink" title = "Meal prep">Meal Prep</a>
+                        <a href="meal-prep.php" class="siteHeader__navLink" title = "Meal prep">Meal Prep</a>
                     </li>
                     <li class="siteHeader__navListItem">
-                        <a href="/cakes.php" class="siteHeader__navLink" title = "Cakes">Cakes</a>
+                        <a href="cakes.php" class="siteHeader__navLink" title = "Cakes">Cakes</a>
                     </li>
                     <li class="siteHeader__navListItem">
-                        <a href="/contact.php" class="siteHeader__navLink" title = "Contact">Contact</a>
+                        <a href="contact.php" class="siteHeader__navLink" title = "Contact">Contact</a>
                     </li>
                 </ul>
             </nav>

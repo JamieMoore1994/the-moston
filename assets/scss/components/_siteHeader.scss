@@ -6,6 +6,7 @@
     min-height: 9vh;
     background-color: $blackMain;
     padding: 2rem 0;
+    z-index: 200;
 
     &__holder {
         display: flex;
@@ -13,13 +14,18 @@
         align-items: center;
         flex-wrap: nowrap;
         position: relative;
-        z-index: 10;
+        z-index: 200;
     }
 
     &__siteLogo {
         width: 25rem;
-        height: 5rem;
         fill: black;
+        
+    }
+
+    &__logoBtn {
+        pointer-events: all;
+        text-decoration: none;
     }
 
     &__contact {
@@ -58,6 +64,7 @@
     &__burgerButton {
         position: relative;
         padding-bottom: 2rem;
+        pointer-events: all;
     }
 
     &__burgerLine {

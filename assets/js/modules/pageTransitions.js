@@ -44,7 +44,7 @@ barba.init({
                 
                 const tl = gsap.timeline({defaults: {ease: 'power2.inOut'}});
                 tl.fromTo(current.container, 1, {opacity: 1}, {opacity: 0});
-                tl.fromTo('.pageTransition', 1, {y: '100%'}, {y: '0', onComplete: done}, "<");
+                tl.fromTo('.pageTransition', 1, {y: '100%', opacity: '0'}, {y: '0', opacity: '1', onComplete: done}, "<");
                 tl.to(burger, 1, {y: 0});
                 tl.to('.line1', 1, {rotate: "0", y: 0, background: '#f2f2f2'}, "<");
                 tl.to('.line2', 1, {rotate: "0", y: 0, background: '#f2f2f2', width: '80%'}, "<");
@@ -59,8 +59,8 @@ barba.init({
                 window.scrollTo(0,0);
                 const tl = gsap.timeline({defaults: {ease: 'power2.inOut'}}, "<");
                 document.querySelector('.siteHeader__burgerButton').classList.remove('active');
-                tl.fromTo('.pageTransition', 1, {y: '0'}, {y: '-100%', stagger: 0.2});
-                tl.fromTo(next.container, 1, {opacity: 0}, {opacity: 1, onComplete: done}, "-=0.5");
+                tl.fromTo('.pageTransition', 1.4, {y: '0'}, {y: '-100%'});
+                tl.fromTo(next.container, 0.5, {opacity: 0}, {opacity: 1, onComplete: done}, "-=0.5");
             }
         }
     ]

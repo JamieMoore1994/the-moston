@@ -29,19 +29,19 @@
                         <a href="/" class="siteFooter__listLink">Home</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="/about.php" class="siteFooter__listLink">About</a>
+                        <a href="about.php" class="siteFooter__listLink">About</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="/menus.php" class="siteFooter__listLink">Menus</a>
+                        <a href="menus.php" class="siteFooter__listLink">Menus</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="/meal-prep.php" class="siteFooter__listLink">Meal Prep</a>
+                        <a href="meal-prep.php" class="siteFooter__listLink">Meal Prep</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="/cakes.php" class="siteFooter__listLink">Cakes</a>
+                        <a href="cakes.php" class="siteFooter__listLink">Cakes</a>
                     </li>
                     <li class="siteFooter__listItem">
-                        <a href="/contact.php" class="siteFooter__listLink">Contact</a>
+                        <a href="contact.php" class="siteFooter__listLink">Contact</a>
                     </li>
                 </ul>
             </div>
