@@ -58,7 +58,7 @@ include "header.php";
                     goals by having a sit-down consultation with our on-site nutritionist & owner who will be able to
                     tailor the calories to meet your needs.</p>
 
-                <a href="#" class="imageTextBlock__btn">View our meal preps menu</a>
+                <a href="assets/menus/moston-box.pdf" download class="imageTextBlock__btn">View our meal preps menu</a>
                 <?php include "assets/svgs/icons/arrow-four.svg" ?>
             </div>
 

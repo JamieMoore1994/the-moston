@@ -49,7 +49,7 @@ include "header.php";
     <div class="container">
         <div class="container menus">
             <span class="menus__tagline pos--rel">Bespoke cakes</span>
-            <h2 class="menus__title">Some delicious personlised cakes</h2>
+            <h2 class="menus__title">Some delicious personalised cakes</h2>
         </div>
     </div>
     <div class="container carouselImages__holder glider-container multiple pos--rel">

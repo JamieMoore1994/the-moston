@@ -19,38 +19,35 @@ barba.init({
         {
             namespace: 'menus',
             beforeEnter() {
-                if(document.querySelector('.glider') && (document.querySelector('.gliderMenus'))) {
-                    new Glider(document.querySelector('.glider') && document.querySelector('.gliderMenus'), {
-                        slidesToShow: 1,
-                        draggable: false,
-                        loop: true,
-                        scrollLock: false,
-                        slidesToScroll: 1,
-                        arrows: {
-                            prev: '.glider-prev',
-                            next: '.glider-next'
-                        },
-                        responsive: [
-                            {
-                                breakpoint: 960,
-                                settings: {
-                                    slidesToShow: 2,
+                    if(document.querySelector('.glider') && (document.querySelector('.gliderMenus'))) {
+                        new Glider(document.querySelector('.glider') && document.querySelector('.gliderMenus'), {
+                            slidesToShow: 1,
+                            draggable: false,
+                            loop: true,
+                            scrollLock: false,
+                            duration: 1.5,
+                            slidesToScroll: 1,
+                            arrows: {
+                                prev: '.glider-prev',
+                                next: '.glider-next'
+                            },
+                            responsive: [
+                                {
+                                    breakpoint: 960,
+                                    settings: {
+                                        slidesToShow: 2,
+                                    }
                                 }
-                            }
-                        ]
-                    });
-                };
+                            ]
+                        });
+                    };
             },
             beforeLeave() {
-                
+                glider.refresh(true);
             }
         },
         {
             namespace: 'mealPrep',
-            beforeEnter() {
-            },
-            beforeLeave() {
-            }
         },
         {
             namespace: 'cakes',
@@ -61,6 +58,7 @@ barba.init({
                         draggable: false,
                         loop: true,
                         scrollLock: false,
+                        duration: 1.5,
                         slidesToScroll: 1,
                         dots: '#dots',
                         arrows: {
@@ -79,7 +77,7 @@ barba.init({
                 };
             },
             beforeLeave() {
-                
+                glider.refresh(true);
             }
         },
         {
