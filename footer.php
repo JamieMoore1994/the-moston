@@ -5,21 +5,21 @@
             <div class="siteFooter__column">
                 <h4 class="siteFooter__title">Opening hours</h4>
                 <ul class="siteFooter__list siteFooter__list--hours">
-                    <li class="siteFooter__listItem">Monday: 9:00 - 18:00</li>
-                    <li class="siteFooter__listItem">Tuesday: 9:00 - 18:00</li>
-                    <li class="siteFooter__listItem">Wednesday: 9:00 - 18:00</li>
-                    <li class="siteFooter__listItem">Thursday: 9:00 - 18:00</li>
-                    <li class="siteFooter__listItem">Friday: 9:00 - 18:00</li>
-                    <li class="siteFooter__listItem">Saturday: 9:00 - 18:00</li>
-                    <li class="siteFooter__listItem">Sunday: 9:00 - 18:00</li>
+                    <li class="siteFooter__listItem">Monday: 06:30 - 16:00</li>
+                    <li class="siteFooter__listItem">Tuesday: 06:30 - 16:00</li>
+                    <li class="siteFooter__listItem">Wednesday: 06:30 - 16:00</li>
+                    <li class="siteFooter__listItem">Thursday: 06:30 - 16:00</li>
+                    <li class="siteFooter__listItem">Friday: 06:30 - 16:00</li>
+                    <li class="siteFooter__listItem">Saturday: 06:30 - 16:00</li>
+                    <li class="siteFooter__listItem">Sunday: 11:00 - 18:00</li>
                 </ul>
             </div>
 
             <div class="siteFooter__column">
                 <h4 class="siteFooter__title">Address</h4>
-                <p class = "siteFooter__text">Address Line1</p>
-                <p class = "siteFooter__text">Address Line1</p>
-                <p class = "siteFooter__text">M40 000</p>
+                <p class = "siteFooter__text">4 Nigel Road</p>
+                <p class = "siteFooter__text">Manchester</p>
+                <p class = "siteFooter__text">M9 4DP</p>
             </div>
 
             <div class="siteFooter__column">
@@ -75,7 +75,8 @@
 <script src="https://unpkg.com/@barba/core"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js" integrity="sha256-MVs0yHYDQBhIRZrNeWB1YaNMrGbFwowIEPIl3um5MZE=" crossorigin="anonymous"></script>
 
-<script src="assets/js/siema.min.js"></script>
+<!-- <script src="assets/js/siema.min.js"></script> -->
+<script src="assets/js/glider.min.js"></script>
 <script src="./dest/all.js"></script>
 </body>
 </html>

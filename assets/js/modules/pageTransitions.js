@@ -11,26 +11,75 @@ barba.init({
         },
         {
             namespace: 'about',
+            beforeEnter() {
+            },
+            beforeLeave() {
+            }
         },
         {
             namespace: 'menus',
             beforeEnter() {
-                new FoodSlider();
+                if(document.querySelector('.glider') && (document.querySelector('.gliderMenus'))) {
+                    new Glider(document.querySelector('.glider') && document.querySelector('.gliderMenus'), {
+                        slidesToShow: 1,
+                        draggable: false,
+                        loop: true,
+                        scrollLock: false,
+                        slidesToScroll: 1,
+                        arrows: {
+                            prev: '.glider-prev',
+                            next: '.glider-next'
+                        },
+                        responsive: [
+                            {
+                                breakpoint: 960,
+                                settings: {
+                                    slidesToShow: 2,
+                                }
+                            }
+                        ]
+                    });
+                };
             },
             beforeLeave() {
-                FoodSlider.destroy();
+                
             }
         },
         {
             namespace: 'mealPrep',
+            beforeEnter() {
+            },
+            beforeLeave() {
+            }
         },
         {
             namespace: 'cakes',
             beforeEnter() {
-                new CakesSlider();
+                if(document.querySelector('.glider') && (document.querySelector('.gliderCakes'))) {
+                    new Glider(document.querySelector('.glider') && document.querySelector('.gliderCakes'), {
+                        slidesToShow: 1,
+                        draggable: false,
+                        loop: true,
+                        scrollLock: false,
+                        slidesToScroll: 1,
+                        dots: '#dots',
+                        arrows: {
+                            prev: '.glider-prev',
+                            next: '.glider-next'
+                        },
+                        responsive: [
+                            {
+                                breakpoint: 960,
+                                settings: {
+                                    slidesToShow: 2,
+                                }
+                            }
+                        ]
+                    });
+                };
             },
             beforeLeave() {
-                CakesSlider.destroy();
+                
             }
         },
         {
@@ -41,7 +90,7 @@ barba.init({
         {
             leave({current, next}) {
                 let done = this.async();
-                
+        
                 const tl = gsap.timeline({defaults: {ease: 'power2.inOut'}});
                 tl.fromTo(current.container, 1, {opacity: 1}, {opacity: 0});
                 tl.fromTo('.pageTransition', 1, {y: '100%', opacity: '0'}, {y: '0', opacity: '1', onComplete: done}, "<");

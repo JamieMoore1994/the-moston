@@ -114,6 +114,22 @@
 
 /*--------------------------------------*/
 
+//643px
+@media screen and (max-width: 643px) {
+    .ourStaff {
+        
+        &__profile {
+            padding-right: 0;
+
+           &::after {
+               display: none;
+           }
+        }
+    }   
+}
+
+/*--------------------------------------*/
+
 //600px
 @media screen and (max-width: $small) {
     .ourStaff {

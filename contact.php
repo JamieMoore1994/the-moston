@@ -36,7 +36,7 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/homeMaskedImagetwo.jpg" alt=""
+                        <img src="assets/images/cakeImageHome.jpg" alt=""
                             class="homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
@@ -52,7 +52,7 @@ include "header.php";
             <div class="contactUs__intro">
                 <h2 class="process__title">Get in touch with us!</h2>
                 <p class="contactUs__text">Want to book in with us for a sunday roast or looking for more information
-                    about our cafe ? fill out our contact form or alternatively contact us below in whatever way is best
+                    about our cafe? fill out our contact form or alternatively contact us below in whatever way is best
                     for you.</p>
 
                 <div class="contactUs__alternative">

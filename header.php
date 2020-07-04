@@ -7,6 +7,7 @@
     <meta name = "description" description = "<?php echo $description?>">
 
     <!--Stylsheet-->
+    <link rel="stylesheet" href="./dest/glider.min.css">
     <link rel="stylesheet" href="./dest/main.css">
 
     <!--Google font-->

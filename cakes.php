@@ -35,7 +35,7 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/homeMaskedImagetwo.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/cakeImageHome.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
                     </div>
@@ -45,29 +45,44 @@ include "header.php";
         </div>
 </section>
 
-<section class="cakesImages" id = "content">
-    <div class="container cakesImages__holder pos--rel">
-        <button class="cakesImages__btn cakesImages__btn--left">
+<section class="cakesImages cakesImagesContent" id = "content">
+    <div class="container">
+        <div class="container menus">
+            <span class="menus__tagline pos--rel">Bespoke cakes</span>
+            <h2 class="menus__title">Some delicious personlised cakes</h2>
+        </div>
+    </div>
+    <div class="container carouselImages__holder glider-container multiple pos--rel">
+        <button class="carouselImages__btn carouselImages__btn--left glider-prev">
             <?php include "assets/svgs/arrow-left-cakes.svg" ?>
         </button>
-        <ul class="cakesImages__slides pos--rel">
-            <li class="cakesImages__slide">
-                <img class = "cakesImages__slideImg" src="assets/images/cakeImageHome.jpg" alt="">
+        <ul class="carouselImages__slides glider gliderCakes pos--rel">
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-one.jpg" alt="">
             </li>
-            <li class="cakesImages__slide">
-                <img class = "cakesImages__slideImg" src="assets/images/cakeImageHome.jpg" alt="">
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-two.jpg" alt="">
             </li>
-            <li class="cakesImages__slide">
-                <img class = "cakesImages__slideImg" src="assets/images/cakeImageHome.jpg" alt="">
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-three.jpg" alt="">
             </li>
-            <li class="cakesImages__slide">
-                <img class = "cakesImages__slideImg" src="assets/images/cakeImageHome.jpg" alt="">
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-four.jpg" alt="">
             </li>
-            <li class="cakesImages__slide">
-                <img class = "cakesImages__slideImg" src="assets/images/cakeImageHome.jpg" alt="">
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-five.jpg" alt="">
+            </li>
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-six.jpg" alt="">
+            </li>
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-seven.jpg" alt="">
+            </li>
+            <li class="carouselImages__slide">
+                <img class = "carouselImages__slideImg" src="assets/images/cake-eight.jpg" alt="">
             </li>
         </ul>
-        <button class="cakesImages__btn cakesImages__btn--right">
+        <button class="carouselImages__btn carouselImages__btn--right glider-next">
             <?php include "assets/svgs/arrow-right-cakes.svg" ?>
         </button>
     </div>
@@ -77,7 +92,7 @@ include "header.php";
     <div class="container cakesInfo__holder">
 
         <div class="cakesInfo__intro">
-            <p class="cakesInfo__text">Cakey is an online cake shop now moving into The Moston with plans to bring bitter and better cakes. Fresh cakes with be available everyday with a variety of flavours.</p>
+            <p class="cakesInfo__text">Cakey is an online cake shop now moving into The Moston with plans to bring better and better cakes. Fresh cakes with be available everyday with a variety of flavours.</p>
 
             <p class="cakesInfo__text">Our bespoke celebration cakes start at £30, if you are interested you can pop into the cafe or fill out this contact form. Let’s sketch some ideas and come up with the perfect cake for you and yours.</p>
         </div>

@@ -1,0 +1,163 @@
+.carouselImages {
+    
+    &__holder {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        margin-top: -12rem;
+    }
+
+    &__slides {
+        list-style: none;
+        overflow: hidden;
+    }
+
+    &__slide {
+        transform: scale(0.8);
+        width: 100%;
+        height: 100%;
+    }
+
+    &__slideImg {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        clip-path: circle();
+    }
+
+    &__btn {
+        border: 0;
+        border-radius: 50%;
+        padding: 1.5rem;
+        background-color: #bdbdbd;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &--left {
+            transform: rotate(180deg);
+            left: 20px;
+            top: 46%;
+        }
+
+        &--right {
+            right: 20px;
+        }
+    }
+
+    &__arrow {
+        height: 3rem;
+        width: 3rem;
+    }
+}
+
+/*--------------------------------------*/
+
+//1200px
+@media screen and (max-width: $xxl) {
+    .carouselImages {
+        
+        &__slides {
+            
+            .glider-next {
+                right: 35px;
+            }
+
+            .glider-prev {
+                left: 12px;
+            }
+        }
+
+        &__slide {
+            transform: scale(0.7);
+        }
+
+        &__btn {
+
+            &--left {
+                left: 30px;
+            }
+
+            &--right {
+                right: 25px;
+            }
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//960px
+@media screen and (max-width: $large) {
+    .carouselImages {
+        
+        &__slides {
+            transform: scale(0.9);
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//600px
+@media screen and (max-width: $small) {
+    .carouselImages {
+        
+        &__slides {
+            transform: scale(0.9);
+        }
+
+        &__btn {
+            transform: translateY(-50%) scale(0.8);
+
+            &--left {
+                transform: rotate(180deg) translateY(16%) scale(0.8);
+            }
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//500px
+@media screen and (max-width: $xs) {
+    .carouselImages {
+
+        &__btn {
+            transform: translateY(-50%) scale(0.6);
+
+            &--left {
+                transform: rotate(180deg) translateY(16%) scale(0.6);
+                left: 10px;
+            }
+
+            &--right {
+                right: 10px;
+            }
+        }
+    } 
+}
+
+/*--------------------------------------*/
+
+//400px
+@media screen and (max-width: $xxs) {
+    .carouselImages {
+
+        &__btn {
+            transform: translateY(-50%) scale(0.5);
+
+            &--left {
+                transform: rotate(180deg) translateY(28%) scale(0.5);
+                left: 5px;
+            }
+
+            &--right {
+                right: 5px;
+            }
+        }
+    } 
+}
+
+/*--------------------------------------*/

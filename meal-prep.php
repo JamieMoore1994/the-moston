@@ -36,7 +36,7 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/homeMaskedImagetwo.jpg" alt=""
+                        <img src="assets/images/cakeImageHome.jpg" alt=""
                             class="homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
@@ -53,8 +53,7 @@ include "header.php";
         <div class="container process__holder">
 
             <div class="process__description pos--rel">
-                <p class="process__descriptionText">Try our healthy & delicious meal prep option if you want healthy and
-                    nutritious food cooked & delivered straight to your door twice per week (Monday & Wednesday).</p>
+                <p class="process__descriptionText">Try our healhty and delicious meal prep option if you want healthy and nutritious food cooked and delivered straight to your door twice per week (Monday & Wednesday). <b class = "process__boldText">1, 2, or 3 meals per day, lasting you Monday Through till Friday.</b></p>
                 <p class="process__descriptionText">Have your meal prep service specifically tailored to you and your
                     goals by having a sit-down consultation with our on-site nutritionist & owner who will be able to
                     tailor the calories to meet your needs.</p>

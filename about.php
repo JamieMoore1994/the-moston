@@ -36,7 +36,7 @@ include "header.php";
                     <!--Small image mask two section-->
                     <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                         <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                            <img src="assets/images/homeMaskedImagetwo.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                            <img src="assets/images/cakeImageHome.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
 
                             <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
                         </div>
