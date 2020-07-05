@@ -53,7 +53,7 @@ include "header.php";
         </div>
     </div>
     <div class="container carouselImages__holder glider-container multiple pos--rel">
-        <button class="carouselImages__btn carouselImages__btn--left glider-prev">
+        <button class="carouselImages__btn carouselImages__btn--left glider-prev glider-prevCakes">
             <?php include "assets/svgs/arrow-left-cakes.svg" ?>
         </button>
         <ul class="carouselImages__slides glider gliderCakes pos--rel">
@@ -82,7 +82,7 @@ include "header.php";
                 <img class = "carouselImages__slideImg" src="assets/images/cake-eight.jpg" alt="">
             </li>
         </ul>
-        <button class="carouselImages__btn carouselImages__btn--right glider-next">
+        <button class="carouselImages__btn carouselImages__btn--right glider-next glider-nextCakes">
             <?php include "assets/svgs/arrow-right-cakes.svg" ?>
         </button>
     </div>
@@ -95,6 +95,8 @@ include "header.php";
             <p class="cakesInfo__text">Cakey is an online cake shop now moving into The Moston with plans to bring better and better cakes. Fresh cakes with be available everyday with a variety of flavours.</p>
 
             <p class="cakesInfo__text">Our bespoke celebration cakes start at £30, if you are interested you can pop into the cafe or fill out this contact form. Let’s sketch some ideas and come up with the perfect cake for you and yours.</p>
+
+            <p class="cakesInfo__text">You can also check out <a href="https://www.facebook.com/cakeymanchester" class="externalLinks" title = "Cakey's Facebook page">Cakey's Facebook page</a> for more information</p>
         </div>
 
         <div class="cakesInfo__form">

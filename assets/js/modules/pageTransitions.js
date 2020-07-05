@@ -19,31 +19,10 @@ barba.init({
         {
             namespace: 'menus',
             beforeEnter() {
-                    if(document.querySelector('.glider') && (document.querySelector('.gliderMenus'))) {
-                        new Glider(document.querySelector('.glider') && document.querySelector('.gliderMenus'), {
-                            slidesToShow: 1,
-                            draggable: false,
-                            loop: true,
-                            scrollLock: false,
-                            duration: 1.5,
-                            slidesToScroll: 1,
-                            arrows: {
-                                prev: '.glider-prev',
-                                next: '.glider-next'
-                            },
-                            responsive: [
-                                {
-                                    breakpoint: 960,
-                                    settings: {
-                                        slidesToShow: 2,
-                                    }
-                                }
-                            ]
-                        });
-                    };
+               menuCarousel();     
             },
             beforeLeave() {
-                glider.refresh(true);
+                menuCarousel.destroy();
             }
         },
         {
@@ -52,32 +31,10 @@ barba.init({
         {
             namespace: 'cakes',
             beforeEnter() {
-                if(document.querySelector('.glider') && (document.querySelector('.gliderCakes'))) {
-                    new Glider(document.querySelector('.glider') && document.querySelector('.gliderCakes'), {
-                        slidesToShow: 1,
-                        draggable: false,
-                        loop: true,
-                        scrollLock: false,
-                        duration: 1.5,
-                        slidesToScroll: 1,
-                        dots: '#dots',
-                        arrows: {
-                            prev: '.glider-prev',
-                            next: '.glider-next'
-                        },
-                        responsive: [
-                            {
-                                breakpoint: 960,
-                                settings: {
-                                    slidesToShow: 2,
-                                }
-                            }
-                        ]
-                    });
-                };
+                cakeCarousel();
             },
             beforeLeave() {
-                glider.refresh(true);
+                cakeCarousel.destroy();
             }
         },
         {

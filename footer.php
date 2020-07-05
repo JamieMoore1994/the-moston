@@ -49,8 +49,8 @@
             <div class="siteFooter__column">
                 <h4 class="siteFooter__title">Get in touch</h4>
                 <ul class="siteFooter__list siteFooter__list--hours">
-                    <li class="siteFooter__listItem">Email: <a href="mailto: info@themoston.com" class = "siteFooter__mailTo" title = "Email staff member Kai">info@themoston.com</a></li>
-                    <li class="siteFooter__listItem">Mobile: 00000000000</li>
+                    <li class="siteFooter__listItem">Email: <a href="mailto: info@themoston.com" class = "siteFooter__mailTo">info@themoston.com</a></li>
+                    <li class="siteFooter__listItem">Mobile: <a class = "siteFooter__mailTo" href="tel:+07470098555">07470098555</a></li>
                 </ul>
             </div>
 
