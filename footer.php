@@ -10,8 +10,8 @@
                     <li class="siteFooter__listItem">Wednesday: 06:30 - 16:00</li>
                     <li class="siteFooter__listItem">Thursday: 06:30 - 16:00</li>
                     <li class="siteFooter__listItem">Friday: 06:30 - 16:00</li>
-                    <li class="siteFooter__listItem">Saturday: 06:30 - 16:00</li>
-                    <li class="siteFooter__listItem">Sunday: 11:00 - 18:00</li>
+                    <li class="siteFooter__listItem">Saturday: 08:00 - 16:00</li>
+                    <li class="siteFooter__listItem">Sunday: 09:00 - 18:00</li>
                 </ul>
             </div>
 
@@ -50,7 +50,7 @@
                 <h4 class="siteFooter__title">Get in touch</h4>
                 <ul class="siteFooter__list siteFooter__list--hours">
                     <li class="siteFooter__listItem">Email: <a href="mailto: info@themoston.com" class = "siteFooter__mailTo">info@themoston.com</a></li>
-                    <li class="siteFooter__listItem">Mobile: <a class = "siteFooter__mailTo" href="tel:+07470098555">07470098555</a></li>
+                    <li class="siteFooter__listItem">Mobile: <a class = "siteFooter__mailTo" href="tel:+01612058864">01612058864</a></li>
                 </ul>
             </div>
 

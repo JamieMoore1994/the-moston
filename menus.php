@@ -131,7 +131,7 @@ include "header.php";
 
             <div class="imageTextBlock__contentHolder">
                 <h2 class="imageTextBlock__title">The lunch menu</h2>
-                <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p class="imageTextBlock__text">Try our delicious lunch menu, starting at 12pm every day. Designed and produced by our quality chef. You won't be disappointed.</p>
 
                 <a href="assets/menus/lunch-menu.pdf" download class="imageTextBlock__btn menuLinks imageTextBlock__btn--row-reverse">View our lunch menu</a>
             </div>
@@ -158,7 +158,7 @@ include "header.php";
 
             <div class="imageTextBlock__contentHolder">
                 <h2 class="imageTextBlock__title">The Moston Box menu</h2>
-                <p class="imageTextBlock__text">Our breakfast menu offers a range of delicious breakfast items that will make us your new go to cafe in Moston.</p>
+                <p class="imageTextBlock__text">Try our Moston Box menu, a delicious meal created by yourself. Pick your base, pick your protein, pick your salad/veg & then pick your sauce.</p>
 
                 <a href="assets/menus/moston-box.pdf" download class="imageTextBlock__btn menuLinks">View our moston box menu</a>
             </div>
@@ -184,7 +184,7 @@ include "header.php";
 
             <div class="imageTextBlock__contentHolder">
                 <h2 class="imageTextBlock__title">The Slimming World Menu</h2>
-                <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p class="imageTextBlock__text">Are you trying to watch your calories while still enjoying our delicious food? Try something from our Slimming World menu. Low calorie & made with love from our team.</p>
 
                 <a href="assets/menus/slimming-world-menu.pdf" download class="imageTextBlock__btn imageTextBlock__btn--row-reverse menuLinks">View our slimming world menu</a>
             </div>

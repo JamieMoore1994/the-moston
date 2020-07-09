@@ -108,9 +108,7 @@ include "header.php";
 
                 <div class="imageTextBlock__contentHolder">
                     <h2 class="imageTextBlock__title">A range of menus</h2>
-                    <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="imageTextBlock__text">We have 4 different menus to suit your needs, a breakfast, lunch, protein box & slimming world menu. Take a look & see if you like what you see.</p>
 
                     <a href="menus.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our
                         menus</a>
@@ -168,9 +166,7 @@ include "header.php";
 
                 <div class="imageTextBlock__contentHolder">
                     <h2 class="imageTextBlock__title">Bespoke cakes</h2>
-                    <p class="imageTextBlock__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="imageTextBlock__text">Need a cake tailor made for you, a friend or family member? check our beautiful handmade personalised cakes.</p>
 
                     <a href="cakes.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our
                         cakes</a>
@@ -185,7 +181,7 @@ include "header.php";
 
             <div class="catering__holder">
                 <div class="catering__formHolder">
-                    <form action="" class="catering__form form form__cateringForm">
+                    <form action="https://formspree.io/mbjzzenk" method = "POST" class="catering__form form form__cateringForm">
                         <fieldset class="form__fieldset">
                             <label for="full-name" class="form__label form__labelCatering">Your full name (First and
                                 Surname) *</label>
@@ -193,12 +189,12 @@ include "header.php";
                                 placeholder="Full name">
                         </fieldset>
                         <fieldset class="form__fieldset">
-                            <label for="email" class="form__label form__labelCatering">Your email</label>
-                            <input type="email" id="email" name="email" class="form__input form__inputCatering"
+                            <label for="email" class="form__label form__labelCatering">Your email *</label>
+                            <input type="email" id="email" name="_replyto" class="form__input form__inputCatering"
                                 placeholder="Your email">
                         </fieldset>
                         <fieldset class="form__fieldset">
-                            <label for="message" class="form__label form__labelCatering">Your Message</label>
+                            <label for="message" class="form__label form__labelCatering">Your Message *</label>
                             <textarea cols="30" rows="10" id="message" name="message"
                                 class="form__textarea form__textareaCatering" placeholder="Your message"></textarea>
                         </fieldset>
@@ -223,9 +219,7 @@ include "header.php";
     <section class="dedicatedTeam">
         <div class="container dedicatedTeam__holder">
             <h2 class="imageTextBlock__title">A dedicated team of staff</h2>
-            <p class="imageTextBlock__text imageTextBlock__text--dedicatedTeam">Lorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since
-                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            <p class="imageTextBlock__text imageTextBlock__text--dedicatedTeam">At The Moston Cafe, our main aim is to give you - the locals - a community cade. We want you to know our team and who's cooking/serving your food.
             </p>
             <a href="about.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Learn more about our
                 staff</a>

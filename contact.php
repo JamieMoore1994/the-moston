@@ -63,14 +63,14 @@ include "header.php";
                         </li>
                         <li class="contactUs__listItem">
                             <h3 class="contactUs__alternativeTitle">Mobile:</h3>
-                            <a class="contactUs__link" href="tel:07740593279">07740593279</a>
+                            <a class="contactUs__link" href="tel:07740593279">01612058864</a>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div class="contactUs__form">
-                <form action="" class="catering__form form form__cateringForm">
+                <form action="https://formspree.io/xnqggyeb" method = "POST" class="catering__form form form__cateringForm">
                     <fieldset class="form__fieldset">
                         <label for="full-name" class="form__label form__labelCatering">Your full name (First and
                             Surname) *</label>
@@ -79,7 +79,7 @@ include "header.php";
                     </fieldset>
                     <fieldset class="form__fieldset">
                         <label for="email" class="form__label form__labelCatering">Your email</label>
-                        <input type="email" id="email" name="email" class="form__input form__inputCatering"
+                        <input type="email" id="email" name="_replyto" class="form__input form__inputCatering"
                             placeholder="Your email">
                     </fieldset>
                     <fieldset class="form__fieldset">
@@ -94,6 +94,12 @@ include "header.php";
         </div>
 
         <?php include "assets/svgs/contactUsCircle.svg" ?>
+    </section>
+
+    <section class="contactUs__subscribe container">
+        <h3 class="process__title">Want hear about our latest deals & offers & chance to win freebies? Subscribe to our mailing list below</h3>
+
+        <a href="http://eepurl.com/g6dYB9" class = "contactUs__mailLink" title = "Join the moston waiting list">Join our mailing list</a>
     </section>
 
 
