@@ -51,6 +51,14 @@
 
     &__img {
         height: 120%;
+
+        &--large {
+            height: 145%;
+        }
+
+        &--small {
+            height: 100%;
+        }
     }
 
     &__circle {

@@ -77,6 +77,26 @@
     &__maskedImages {
         height: 130%;
         z-index: 20;
+
+        &--large {
+            height: 145%;
+        }
+
+        &--small {
+            height: 100%;
+        }
+
+        &--topAdjust {
+            top: -10%;
+        }
+
+        &--heightMed {
+            height: 120%;
+        }
+
+        &--smallTopAdjust {
+            top: 0 !important;
+        }
     }
 
     // Small image mask size

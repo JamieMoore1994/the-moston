@@ -4,50 +4,71 @@ barba.init({
             namespace: 'home',
             beforeEnter() {
                 homeFillText();
+                addInView();
             },
             beforeLeave() {
                 homeFillText.destroy();
+                addInView.destroy();
             }
         },
         {
             namespace: 'about',
             beforeEnter() {
+                addInView();
             },
             beforeLeave() {
+                addInView.destroy();
             }
         },
         {
             namespace: 'menus',
             beforeEnter() {
-               menuCarousel();     
+               menuCarousel();
+               addInView();     
             },
             beforeLeave() {
                 menuCarousel.destroy();
+                addInView.destroy();
             }
         },
         {
             namespace: 'mealPrep',
+            beforeEnter() {
+                addInView();     
+             },
+             beforeLeave() {
+                addInView.destroy();
+             }
         },
         {
             namespace: 'cakes',
             beforeEnter() {
                 cakeCarousel();
+                addInView();
             },
             beforeLeave() {
                 cakeCarousel.destroy();
+                addInView.destroy();
             }
         },
         {
             namespace: 'contact',
+            beforeEnter() {
+                addInView();
+            },
+            beforeLeave() {
+                addInView.destroy();
+            }
         },
     ],
     transitions: [
         {
             leave({current, next}) {
                 let done = this.async();
-        
+    
                 const tl = gsap.timeline({defaults: {ease: 'power2.inOut'}});
                 tl.fromTo(current.container, 1, {opacity: 1}, {opacity: 0});
+                window.scrollTo(0, 0);
                 tl.fromTo('.pageTransition', 1, {y: '100%', opacity: '0'}, {y: '0', opacity: '1', onComplete: done}, "<");
                 tl.to(burger, 1, {y: 0});
                 tl.to('.line1', 1, {rotate: "0", y: 0, background: '#f2f2f2'}, "<");

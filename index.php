@@ -3,7 +3,7 @@ $title = "The Moston Cafe - Manchester";
 
 include "header.php";
 ?>
-<main data-barba="container" data-barba-namespace="home">
+<main data-barba="container" data-barba-namespace="home" class = "mainHome">
     <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -20,7 +20,7 @@ include "header.php";
                 <!--Large image masking section-->
                 <div class="homeBanner__imageHolderLarge pos--rel">
                     <div class="homeBanner__imageLargeMask pos--rel">
-                        <img src="assets/images/homeMainImage.jpg" alt="" class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast" class="homeBanner__maskedImages homeBanner__maskedImages--large homeBanner__maskedImages--topAdjust pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerLargeMask.svg" ?>
                     </div>
@@ -29,8 +29,8 @@ include "header.php";
                 <!--Small image mask one section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--one pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--one pos--rel">
-                        <img src="assets/images/homeMaskedImageOne.jpg" alt=""
-                            class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/breakfast-images/pancakesHomeSmall.jpg" alt="Pancakes with bacon and syrup"
+                            class="homeBanner__maskedImages pos--abs homeBanner__maskedImages--topAdjust">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskOne.svg" ?>
                     </div>
@@ -39,8 +39,8 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/cakeImageHome.jpg" alt=""
-                            class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/mealPrep-images/mostonBoxHomeSmall.jpg" alt="Chicken and rice"
+                            class="homeBanner__maskedImages homeBanner__maskedImages--large pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
                     </div>
@@ -60,7 +60,7 @@ include "header.php";
         </div>
     </section>
     <!--Sunday roast section home--->
-    <section class="imageTextBlock homeIntro homeIntro--sundayRoast" id="content">
+    <section class="imageTextBlock homeIntro homeIntro--sundayRoast js-inview" id="content">
         <div class="container">
 
             <!--This is a text block with an image to the left-->
@@ -90,7 +90,7 @@ include "header.php";
     </section>
 
     <!--Breakfast section-->
-    <section class="imageTextBlock homeIntro homeIntro--breakfast">
+    <section class="imageTextBlock homeIntro homeIntro--breakfast js-inview">
         <div class="container">
 
             <!--This is a text block with an image to the left-->
@@ -98,7 +98,7 @@ include "header.php";
                 <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
                     <div
                         class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--breakfast imageTextBlock__imageMaskLarge--row-reverse">
-                        <img src="assets/images/breakfastLargeSectionImage.jpg" alt="" class="imageTextBlock__img">
+                        <img src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast" class="imageTextBlock__img imageTextBlock__img--large">
 
                         <?php include "assets/svgs/circleMasks/breakfastLargeMask.svg" ?>
                     </div>
@@ -119,14 +119,14 @@ include "header.php";
     </section>
 
     <!--Bespoke meal prep section home--->
-    <section class="imageTextBlock homeIntro homeIntro--mealPrep">
+    <section class="imageTextBlock homeIntro homeIntro--mealPrep js-inview">
         <div class="container">
 
             <!--This is a text block with an image to the left-->
             <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
                 <div class="imageTextBlock__imageHolder pos--rel">
                     <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--mealPrep">
-                        <img src="assets/images/mealPrepHome.jpg" alt="" class="imageTextBlock__img">
+                        <img src="assets/images/mealPrep-images/mealPrepHome.jpg" alt="Chicken and spinach with spicy chilli sauce" class="imageTextBlock__img">
 
                         <?php include "assets/svgs/circleMasks/bespokeMealMask.svg" ?>
                     </div>
@@ -148,7 +148,7 @@ include "header.php";
     </section>
 
     <!--Cakes section-->
-    <section class="imageTextBlock homeIntro homeIntro--cakes">
+    <section class="imageTextBlock homeIntro homeIntro--cakes js-inview">
         <div class="container">
 
             <!--This is a text block with an image to the left-->
@@ -176,7 +176,7 @@ include "header.php";
         </div>
     </section>
 
-    <section class="catering">
+    <section class="catering js-inview">
         <div class="container">
 
             <div class="catering__holder">
@@ -216,7 +216,7 @@ include "header.php";
         </div>
     </section>
 
-    <section class="dedicatedTeam">
+    <section class="dedicatedTeam js-inview">
         <div class="container dedicatedTeam__holder">
             <h2 class="imageTextBlock__title">A dedicated team of staff</h2>
             <p class="imageTextBlock__text imageTextBlock__text--dedicatedTeam">At The Moston Cafe, our main aim is to give you - the locals - a community cade. We want you to know our team and who's cooking/serving your food.

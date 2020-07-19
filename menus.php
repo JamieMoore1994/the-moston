@@ -3,7 +3,7 @@ $title = "Our Menus - The Moston Cafe";
 
 include "header.php";
 ?>
-<main data-barba = "container" data-barba-namespace = "menus">
+<main data-barba = "container" data-barba-namespace = "menus" class = "mainMenus">
 <section class="homeBanner homeFill">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -17,7 +17,7 @@ include "header.php";
                 <!--Large image masking section-->
                 <div class="homeBanner__imageHolderLarge pos--rel">
                     <div class="homeBanner__imageLargeMask pos--rel">
-                        <img src="assets/images/homeMainImage.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/mealPrep-images/menusPageMain.jpg" alt="Chicken, spinach with spicy chilli sauce" class = "homeBanner__maskedImages homeBanner__maskedImages--heightMed pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerLargeMask.svg" ?>
                     </div>
@@ -26,7 +26,7 @@ include "header.php";
                 <!--Small image mask one section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--one pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--one pos--rel">
-                        <img src="assets/images/homeMaskedImageOne.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/lunch-images/burgerChips.jpg" alt="Cheeseburger and chips" class = "homeBanner__maskedImages homeBanner__maskedImages--small pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskOne.svg" ?>
                     </div>
@@ -45,7 +45,7 @@ include "header.php";
         </div>
 </section>
 
-<section class="menus menusContent pos--rel" id = "content">
+<section class="menus menusContent pos--rel js-inview" id = "content">
     <div class="container">
         <span class="menus__tagline pos--rel">The new best menus in Moston</span>
         <h2 class="menus__title">Look at some of our delicious food</h2>
@@ -57,10 +57,10 @@ include "header.php";
         </button>
         <ul class="carouselImages__slides glider gliderMenus pos--rel">
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-one.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-two.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/mealPrep-images/menusPageMain.jpg" alt="">
             </li>
             <li class="carouselImages__slide">
                 <img class = "carouselImages__slideImg" src="assets/images/cake-three.jpg" alt="">
@@ -88,14 +88,14 @@ include "header.php";
 </section>
 
 <!--Sunday roast section home--->
-<section class="imageTextBlock menusBlock">
+<section class="imageTextBlock menusBlock js-inview">
     <div class="container">
 
         <!--This is a text block with an image to the left-->
         <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
             <div class="imageTextBlock__imageHolder pos--rel">
                 <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--breakfastMenu">
-                    <img src="assets/images/breakfastLargeSectionImage.jpg" alt="" class = "imageTextBlock__img">
+                    <img src="assets/images/breakfast-images/pancakesMenusLarge.jpg" alt="Pancakes with bacon and syrup" class = "imageTextBlock__img">
 
                     <?php include "assets/svgs/circleMasks/breakfastLargeMask.svg" ?>
                 </div>
@@ -114,14 +114,14 @@ include "header.php";
     </div>
 </section>
 
-<section class="imageTextBlock">
+<section class="imageTextBlock js-inview">
     <div class="container">
 
         <!--This is a text block with an image to the left-->
         <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
             <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
                 <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--lunchMenu imageTextBlock__imageMaskLarge--row-reverse">
-                    <img src="assets/images/breakfastLargeSectionImage.jpg" alt="" class = "imageTextBlock__img">
+                    <img src="assets/images/lunch-images/burgerChipsLarge.jpg" alt="Cheeseburger and chips" class = "imageTextBlock__img imageTextBlock__img--small">
 
                     <?php include "assets/svgs/circleMasks/lunchMenuMask.svg" ?>
                 </div>
@@ -141,14 +141,14 @@ include "header.php";
 </section>
 
 <!--Sunday roast section home--->
-<section class="imageTextBlock">
+<section class="imageTextBlock js-inview">
     <div class="container">
 
         <!--This is a text block with an image to the left-->
         <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
             <div class="imageTextBlock__imageHolder pos--rel">
                 <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--mostonBox">
-                    <img src="assets/images/breakfastLargeSectionImage.jpg" alt="" class = "imageTextBlock__img">
+                    <img src="assets/images/mealPrep-images/menusPageMain.jpg" alt="Chicken, spinach and spicy sauce" class = "imageTextBlock__img">
 
                     <?php include "assets/svgs/circleMasks/mostonBoxMenuMask.svg" ?>
                 </div>
@@ -167,14 +167,14 @@ include "header.php";
     </div>
 </section>
 
-<section class="imageTextBlock">
+<section class="imageTextBlock js-inview">
     <div class="container">
 
         <!--This is a text block with an image to the left-->
         <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
             <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
                 <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--lunchMenu imageTextBlock__imageMaskLarge--row-reverse">
-                    <img src="assets/images/breakfastLargeSectionImage.jpg" alt="" class = "imageTextBlock__img">
+                    <img src="assets/images/mealPrep-images/mostonBoxMenus.jpg" alt="Chicken, spicy rice and spicy chilli sauce" class = "imageTextBlock__img">
 
                     <?php include "assets/svgs/circleMasks/lunchMenuMask.svg" ?>
                 </div>
@@ -184,16 +184,16 @@ include "header.php";
 
             <div class="imageTextBlock__contentHolder">
                 <h2 class="imageTextBlock__title">The Slimming World Menu</h2>
-                <p class="imageTextBlock__text">Are you trying to watch your calories while still enjoying our delicious food? Try something from our Slimming World menu. Low calorie & made with love from our team.</p>
+                <p class="imageTextBlock__text">Are you trying to watch your calories while still enjoying our delicious food? Our Slimming World menu is low in calories & made with love from our team. We change this menu regularly so be sure to get in touch with us or visit the cafe to find out about this menu.</p>
 
-                <a href="assets/menus/slimming-world-menu.pdf" download class="imageTextBlock__btn imageTextBlock__btn--row-reverse menuLinks">View our slimming world menu</a>
+                <a href="contact.php" download class="imageTextBlock__btn imageTextBlock__btn--row-reverse menuLinks">Get in touch</a>
             </div>
         </div>
 
     </div>
 </section>
 
-<section class="roastMenu pos--rel">
+<section class="roastMenu pos--rel js-inview">
     <div class="container roastMenu__holder">
         <h2 class="roastMenu__title">Sunday Roast Dinners</h2>
         <p class="roastMenu__text">Our fantastic chefs will be bringing you your new go to place for a special Sunday roast. We even make Yorkshire pudding wraps.</p>

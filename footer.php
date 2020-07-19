@@ -26,7 +26,7 @@
                 <h4 class="siteFooter__title">Useful Links</h4>
                 <ul class="siteFooter__list siteFooter__list--hours">
                     <li class="siteFooter__listItem">
-                        <a href="/" class="siteFooter__listLink">Home</a>
+                        <a href="index.php" class="siteFooter__listLink">Home</a>
                     </li>
                     <li class="siteFooter__listItem">
                         <a href="about.php" class="siteFooter__listLink">About</a>
@@ -72,8 +72,10 @@
     <?php include "assets/svgs/siteLogoTransition.svg" ?>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/ScrollTrigger.min.js"></script>
 <script src="https://unpkg.com/@barba/core"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js" integrity="sha256-MVs0yHYDQBhIRZrNeWB1YaNMrGbFwowIEPIl3um5MZE=" crossorigin="anonymous"></script>
+
 
 <!-- <script src="assets/js/siema.min.js"></script> -->
 <script src="assets/js/glider.min.js"></script>

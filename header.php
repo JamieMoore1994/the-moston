@@ -96,7 +96,7 @@
 
                 <div class="siteHeader__imageHolderLarge">
                     <div class="siteHeader__imageMaskLarge">
-                        <img src="./assets/images/tester-image.jpg" alt="">
+                        <img src="./assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast">
                         <?php include "assets/svgs/circleMasks/navClipMask.svg" ?>
                     </div>
                 </div>

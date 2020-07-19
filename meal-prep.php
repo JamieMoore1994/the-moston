@@ -3,7 +3,7 @@ $title = "Our Menus - The Moston Cafe";
 
 include "header.php";
 ?>
-<main data-barba="container" data-barba-namespace="mealPrep">
+<main data-barba="container" data-barba-namespace="mealPrep" class = "mainMealPrep">
     <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -17,7 +17,7 @@ include "header.php";
                 <!--Large image masking section-->
                 <div class="homeBanner__imageHolderLarge pos--rel">
                     <div class="homeBanner__imageLargeMask pos--rel">
-                        <img src="assets/images/homeMainImage.jpg" alt="" class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/mealPrep-images/menusPageMain.jpg" alt="" class="homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerLargeMask.svg" ?>
                     </div>
@@ -26,7 +26,7 @@ include "header.php";
                 <!--Small image mask one section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--one pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--one pos--rel">
-                        <img src="assets/images/homeMaskedImageOne.jpg" alt=""
+                        <img src="assets/images/mealPrep-images/mostonBoxHomeSmall.jpg" alt=""
                             class="homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskOne.svg" ?>
@@ -36,7 +36,7 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/cakeImageHome.jpg" alt=""
+                        <img src="assets/images/mealPrep-images/mostonBoxMenus.jpg" alt=""
                             class="homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
@@ -47,7 +47,7 @@ include "header.php";
         </div>
     </section>
 
-    <section class="process pos--rel" id="content">
+    <section class="process js-inview pos--rel" id="content">
         <h2 class="process__title">The Process</h2>
 
         <div class="container process__holder">
@@ -58,7 +58,7 @@ include "header.php";
                     goals by having a sit-down consultation with our on-site nutritionist & owner who will be able to
                     tailor the calories to meet your needs.</p>
 
-                <a href="assets/menus/moston-box.pdf" download class="imageTextBlock__btn">View our meal preps menu</a>
+                <!-- <a href="assets/menus/moston-box.pdf" download class="imageTextBlock__btn">View our meal preps menu</a> -->
                 <?php include "assets/svgs/icons/arrow-four.svg" ?>
             </div>
 
@@ -94,7 +94,7 @@ include "header.php";
         <?php include "assets/svgs/mealPrepBackgroundCircle.svg" ?>
     </section>
 
-    <section class="contactNutritionist pos--rel">
+    <section class="contactNutritionist js-inview pos--rel">
         <div class="container contactNutritionist__holder">
 
             <div class="contactNutritionist__info pos--rel">

@@ -3,7 +3,7 @@ $title = "About us - The Moston Cafe";
 
 include "header.php";
 ?>
-<main data-barba = "container" data-barba-namespace = "about">
+<main data-barba = "container" data-barba-namespace = "about" class = "mainAbout">
     <section class="homeBanner">
             <div class="container homeBanner__holder">
                 <div class="homeBanner__intro">
@@ -18,7 +18,7 @@ include "header.php";
                     <!--Large image masking section-->
                     <div class="homeBanner__imageHolderLarge pos--rel">
                         <div class="homeBanner__imageLargeMask pos--rel">
-                            <img src="assets/images/homeMainImage.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                            <img src="assets/images/about/cuttingRibbon.jpg" alt="Staff member Paul cutting ribbon to open the cafe" class = "homeBanner__maskedImages homeBanner__maskedImages--small pos--abs">
 
                             <?php include "assets/svgs/circleMasks/homeBannerLargeMask.svg" ?>
                         </div>
@@ -27,7 +27,7 @@ include "header.php";
                     <!--Small image mask one section-->
                     <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--one pos--abs">
                         <div class="homeBanner__smallImageMask homeBanner__smallImageMask--one pos--rel">
-                            <img src="assets/images/homeMaskedImageOne.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                            <img src="assets/images/about/kaiSmile.jpg" alt="Staff member Kai Gorman" class = "homeBanner__maskedImages homeBanner__maskedImages--small pos--abs">
 
                             <?php include "assets/svgs/circleMasks/homeBannerSmallMaskOne.svg" ?>
                         </div>
@@ -46,11 +46,11 @@ include "header.php";
             </div>
     </section>
 
-    <section class="aboutIntro" id = "content">
-        <div class="container pos--rel aboutIntro__holder">
+    <section class="aboutIntro js-inview"  id = "content">
+        <div class="container pos--rel aboutIntro__holder js-inview">
 
             <div class="aboutIntro__image">
-                <img src="assets/images/aboutCafeImage.jpg" alt="The Moston cafe">
+                <img src="assets/images/about/aboutMain.jpg" alt="The Moston staff members Kai, Chris and Paul">
             </div>
 
             <div class="aboutIntro__text">
@@ -65,14 +65,14 @@ include "header.php";
         </div>
     </section>
 
-    <section class="ourStaff pos--rel">
+    <section class="ourStaff pos--rel js-inview">
         <h2 class="ourStaff__title">Our Staff</h2>
         <div class="container container--large">
             <ul class="ourStaff__list">
                 <!--Chris-->
                 <li class="ourStaff__profile">
                     <div class="ourStaff__image">
-                        <img src="assets/images/chefImg.png" alt="Chris Carpenter">
+                        <img src="assets/images/staff-images/chris-image.png" alt="Chris Carpenter">
                     </div>
                     <div class="ourStaff__profileContent">
                         <h3 class="ourStaff__staffName">Chris Carpenter</h3>
@@ -87,7 +87,7 @@ include "header.php";
                 <!--Kai-->
                 <li class="ourStaff__profile">
                     <div class="ourStaff__image">
-                        <img src="assets/images/chefImg.png" alt="Chris Carpenter">
+                        <img src="assets/images/staff-images/kai-image.png" alt="Chris Carpenter">
                     </div>
                     <div class="ourStaff__profileContent">
                         <h3 class="ourStaff__staffName">Kai Gorman</h3>
@@ -101,7 +101,7 @@ include "header.php";
                 </li>
                 <li class="ourStaff__profile">
                     <div class="ourStaff__image">
-                        <img src="assets/images/chefImg.png" alt="Chris Carpenter">
+                        <img src="assets/images/staff-images/paul-image.png" alt="Chris Carpenter">
                     </div>
                     <div class="ourStaff__profileContent">
                         <h3 class="ourStaff__staffName">Paul</h3>

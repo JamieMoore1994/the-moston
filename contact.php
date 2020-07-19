@@ -3,7 +3,7 @@ $title = "Our Menus - The Moston Cafe";
 
 include "header.php";
 ?>
-<main data-barba="container" data-barba-namespace="contact">
+<main data-barba="container" data-barba-namespace="contact" class = "mainContact">
     <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -17,7 +17,7 @@ include "header.php";
                 <!--Large image masking section-->
                 <div class="homeBanner__imageHolderLarge pos--rel">
                     <div class="homeBanner__imageLargeMask pos--rel">
-                        <img src="assets/images/homeMainImage.jpg" alt="" class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/contact/allStaffContact.jpg" alt="The Moston staff members Paul, Kai and Chris" class="homeBanner__maskedImages homeBanner__maskedImages--small pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerLargeMask.svg" ?>
                     </div>
@@ -26,8 +26,8 @@ include "header.php";
                 <!--Small image mask one section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--one pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--one pos--rel">
-                        <img src="assets/images/homeMaskedImageOne.jpg" alt=""
-                            class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/contact/cuttingRibbonSmall.jpg" alt=""
+                            class="homeBanner__maskedImages homeBanner__maskedImages--small pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskOne.svg" ?>
                     </div>
@@ -36,8 +36,8 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/cakeImageHome.jpg" alt=""
-                            class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/contact/kaiSmileSmall.jpg" alt="Staff member Kai smiling"
+                            class="homeBanner__maskedImages homeBanner__maskedImages--small homeBanner__maskedImages--smallTopAdjust pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
                     </div>
@@ -47,7 +47,7 @@ include "header.php";
         </div>
     </section>
 
-    <section class="contactUs pos--rel" id="content">
+    <section class="contactUs pos--rel js-inview" id="content">
         <div class="container contactUs__holder">
             <div class="contactUs__intro">
                 <h2 class="process__title">Get in touch with us!</h2>
@@ -96,7 +96,7 @@ include "header.php";
         <?php include "assets/svgs/contactUsCircle.svg" ?>
     </section>
 
-    <section class="contactUs__subscribe container">
+    <section class="contactUs__subscribe container js-inview">
         <h3 class="process__title">Want hear about our latest deals & offers & chance to win freebies? Subscribe to our mailing list below</h3>
 
         <a href="http://eepurl.com/g6dYB9" class = "contactUs__mailLink" title = "Join the moston waiting list">Join our mailing list</a>
