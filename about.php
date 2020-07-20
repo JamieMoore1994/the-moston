@@ -1,5 +1,6 @@
 <?php
 $title = "About us - The Moston Cafe";
+$canonical = "https://themoston.com/about.php";
 
 include "header.php";
 ?>

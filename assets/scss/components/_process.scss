@@ -44,14 +44,6 @@
         
     }
 
-    &__stepsList {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        flex-wrap: wrap;
-        list-style: none;
-    }
-
     &__stepsItem {
         width: 50%;
         display: flex;

@@ -59,6 +59,16 @@
         &--small {
             height: 100%;
         }
+
+        &--topAdjust {
+            position: relative;
+            top: -100px;
+            height: 145%;
+
+            &--more {
+                top: -140px;
+            }
+        }
     }
 
     &__circle {

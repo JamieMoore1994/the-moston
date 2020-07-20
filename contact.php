@@ -1,5 +1,6 @@
 <?php
 $title = "Our Menus - The Moston Cafe";
+$canonical = "https://themoston.com/contact.php";
 
 include "header.php";
 ?>
@@ -75,16 +76,16 @@ include "header.php";
                         <label for="full-name" class="form__label form__labelCatering">Your full name (First and
                             Surname) *</label>
                         <input type="text" id="full-name" name="name" class="form__input form__inputCatering"
-                            placeholder="Full name">
+                            placeholder="Full name" required>
                     </fieldset>
                     <fieldset class="form__fieldset">
                         <label for="email" class="form__label form__labelCatering">Your email</label>
                         <input type="email" id="email" name="_replyto" class="form__input form__inputCatering"
-                            placeholder="Your email">
+                            placeholder="Your email" required>
                     </fieldset>
                     <fieldset class="form__fieldset">
                         <label for="message" class="form__label form__labelCatering">Your Message</label>
-                        <textarea cols="30" rows="10" id="message" name="message"
+                        <textarea cols="30" rows="10" id="message" name="message" required
                             class="form__textarea form__textareaCatering" placeholder="Your message"></textarea>
                     </fieldset>
                     <button class="imageTextBlock__btn imageTextBlock__btn--submit" type="submit"

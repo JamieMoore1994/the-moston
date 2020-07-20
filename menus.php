@@ -1,5 +1,6 @@
 <?php
 $title = "Our Menus - The Moston Cafe";
+$canonical = "https://themoston.com/menus.php";
 
 include "header.php";
 ?>
@@ -60,25 +61,25 @@ include "header.php";
                 <img class = "carouselImages__slideImg" src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/mealPrep-images/menusPageMain.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/mealPrep-images/menusPageMain.jpg" alt="Chicken and spinach with spicy chilli sauce">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-three.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/sundayRoast-images/yorkPuddingHome.jpg" alt="Large yorkshire pudding with vegetables and gravy">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-four.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/breakfast-images/pancakesMenusLarge.jpg" alt="Pancakes with bacon and syrup">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-five.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/mealPrep-images/mealPrepLargeImg.jpg" alt="Three boxes of chicken, broccoli and sweet chilli sauce all over">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-six.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/breakfast-images/breakfastMenu.jpg" alt="Full English breakfast with avocado, spinach and toast">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-seven.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/mealPrep-images/mostonBoxMenusMain.jpg" alt="">
             </li>
             <li class="carouselImages__slide">
-                <img class = "carouselImages__slideImg" src="assets/images/cake-eight.jpg" alt="">
+                <img class = "carouselImages__slideImg" src="assets/images/breakfast-images/eggsMenuCarousel.jpg" alt="Two poached eggs on toast with avocado">
             </li>
         </ul>
         <button class="carouselImages__btn carouselImages__btn--right glider-next glider-nextMenus">
@@ -148,7 +149,7 @@ include "header.php";
         <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
             <div class="imageTextBlock__imageHolder pos--rel">
                 <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--mostonBox">
-                    <img src="assets/images/mealPrep-images/menusPageMain.jpg" alt="Chicken, spinach and spicy sauce" class = "imageTextBlock__img">
+                    <img src="assets/images/mealPrep-images/mostonBoxMenusMain.jpg" alt="Chicken, spinach and spicy sauce" class = "imageTextBlock__img imageTextBlock__img--large imageTextBlock__img--topAdjust">
 
                     <?php include "assets/svgs/circleMasks/mostonBoxMenuMask.svg" ?>
                 </div>
@@ -161,32 +162,6 @@ include "header.php";
                 <p class="imageTextBlock__text">Try our Moston Box menu, a delicious meal created by yourself. Pick your base, pick your protein, pick your salad/veg & then pick your sauce.</p>
 
                 <a href="assets/menus/moston-box.pdf" download class="imageTextBlock__btn menuLinks">View our moston box menu</a>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="imageTextBlock js-inview">
-    <div class="container">
-
-        <!--This is a text block with an image to the left-->
-        <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
-            <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
-                <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--lunchMenu imageTextBlock__imageMaskLarge--row-reverse">
-                    <img src="assets/images/mealPrep-images/mostonBoxMenus.jpg" alt="Chicken, spicy rice and spicy chilli sauce" class = "imageTextBlock__img">
-
-                    <?php include "assets/svgs/circleMasks/lunchMenuMask.svg" ?>
-                </div>
-
-                <?php include "assets/svgs/lunchMenuLargeCircle.svg" ?>
-            </div>
-
-            <div class="imageTextBlock__contentHolder">
-                <h2 class="imageTextBlock__title">The Slimming World Menu</h2>
-                <p class="imageTextBlock__text">Are you trying to watch your calories while still enjoying our delicious food? Our Slimming World menu is low in calories & made with love from our team. We change this menu regularly so be sure to get in touch with us or visit the cafe to find out about this menu.</p>
-
-                <a href="contact.php" download class="imageTextBlock__btn imageTextBlock__btn--row-reverse menuLinks">Get in touch</a>
             </div>
         </div>
 

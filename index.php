@@ -1,5 +1,8 @@
 <?php
 $title = "The Moston Cafe - Manchester";
+$description = "The Moston Cafe is a new local cafe based in Moston, Manchester that aims to bring amazing food as well as a community driven cafe";
+
+$canonical = "https://themoston.com/index.php";
 
 include "header.php";
 ?>
@@ -49,8 +52,8 @@ include "header.php";
                 <!--Small image mask three section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--three pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--three pos--rel">
-                        <img src="assets/images/homeMaskedImageThree.jpg" alt=""
-                            class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/breakfast-images/eggsHomeSmall.jpg" alt="Two poached egg with avocado on toast"
+                            class="homeBanner__maskedImages homeBanner__maskedImages--large pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskThree.svg" ?>
                     </div>
@@ -59,20 +62,50 @@ include "header.php";
             </div>
         </div>
     </section>
-    <!--Sunday roast section home--->
-    <section class="imageTextBlock homeIntro homeIntro--sundayRoast js-inview" id="content">
+
+    <!--Breakfast section-->
+    <section class="imageTextBlock homeIntro homeIntro--breakfast js-inview">
         <div class="container">
 
             <!--This is a text block with an image to the left-->
             <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
                 <div class="imageTextBlock__imageHolder pos--rel">
+                    <div
+                        class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--breakfast imageTextBlock__imageMaskLarge--row-reverse">
+                        <img src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast" class="imageTextBlock__img imageTextBlock__img--large">
+
+                        <?php include "assets/svgs/circleMasks/breakfastLargeMask.svg" ?>
+                    </div>
+
+                    <?php include "assets/svgs/homeGreyCircleOne.svg" ?>
+                </div>
+
+                <div class="imageTextBlock__contentHolder">
+                    <h2 class="imageTextBlock__title">A range of menus</h2>
+                    <p class="imageTextBlock__text">We have 3 different menus to suit your needs, a breakfast, lunch & protein box. Take a look & see if you like what you see.</p>
+
+                    <a href="menus.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our
+                        menus</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Sunday roast section home--->
+    <section class="imageTextBlock homeIntro homeIntro--sundayRoast js-inview" id="content">
+        <div class="container">
+
+            <!--This is a text block with an image to the left-->
+            <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
+                <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
                     <div class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--sundayRoast">
-                        <img src="assets/images/sundayRoastHome.jpg" alt="" class="imageTextBlock__img">
+                        <img src="assets/images/sundayRoast-images/yorkPuddingHome.jpg" alt="Large yorkshire pudding with meat, vegetables and gravy inside" class="imageTextBlock__img imageTextBlock__img--topAdjust imageTextBlock__img--large">
 
                         <?php include "assets/svgs/circleMasks/imageBlockMaskLargeOne.svg" ?>
                     </div>
 
-                    <?php include "assets/svgs/homeGreyCircleOne.svg" ?>
+                    <?php include "assets/svgs/homeGreyCircleTwo.svg" ?>
                 </div>
 
                 <div class="imageTextBlock__contentHolder">
@@ -83,35 +116,6 @@ include "header.php";
                         make your booking.</p>
 
                     <a href="contact.php" class="imageTextBlock__btn">Book now</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!--Breakfast section-->
-    <section class="imageTextBlock homeIntro homeIntro--breakfast js-inview">
-        <div class="container">
-
-            <!--This is a text block with an image to the left-->
-            <div class="imageTextBlock__holder imageTextBlock__holder--row-reverse pos--rel">
-                <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
-                    <div
-                        class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--breakfast imageTextBlock__imageMaskLarge--row-reverse">
-                        <img src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast" class="imageTextBlock__img imageTextBlock__img--large">
-
-                        <?php include "assets/svgs/circleMasks/breakfastLargeMask.svg" ?>
-                    </div>
-
-                    <?php include "assets/svgs/homeGreyCircleTwo.svg" ?>
-                </div>
-
-                <div class="imageTextBlock__contentHolder">
-                    <h2 class="imageTextBlock__title">A range of menus</h2>
-                    <p class="imageTextBlock__text">We have 4 different menus to suit your needs, a breakfast, lunch, protein box & slimming world menu. Take a look & see if you like what you see.</p>
-
-                    <a href="menus.php" class="imageTextBlock__btn imageTextBlock__btn--row-reverse">Check out our
-                        menus</a>
                 </div>
             </div>
 
@@ -156,7 +160,7 @@ include "header.php";
                 <div class="imageTextBlock__imageHolder imageTextBlock__imageHolder--row-reverse pos--rel">
                     <div
                         class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--cakes imageTextBlock__imageMaskLarge--row-reverse">
-                        <img src="assets/images/cakeImageHome.jpg" alt="" class="imageTextBlock__img">
+                        <img src="assets/images/cakes/cakeThree.jpg" alt="" class="imageTextBlock__img imageTextBlock__img--large imageTextBlock__img--topAdjust imageTextBlock__img--topAdjust--more">
 
                         <?php include "assets/svgs/circleMasks/cakeHomeMask.svg" ?>
                     </div>
@@ -186,17 +190,17 @@ include "header.php";
                             <label for="full-name" class="form__label form__labelCatering">Your full name (First and
                                 Surname) *</label>
                             <input type="text" id="full-name" name="name" class="form__input form__inputCatering"
-                                placeholder="Full name">
+                                placeholder="Full name" required>
                         </fieldset>
                         <fieldset class="form__fieldset">
                             <label for="email" class="form__label form__labelCatering">Your email *</label>
                             <input type="email" id="email" name="_replyto" class="form__input form__inputCatering"
-                                placeholder="Your email">
+                                placeholder="Your email" required>
                         </fieldset>
                         <fieldset class="form__fieldset">
                             <label for="message" class="form__label form__labelCatering">Your Message *</label>
                             <textarea cols="30" rows="10" id="message" name="message"
-                                class="form__textarea form__textareaCatering" placeholder="Your message"></textarea>
+                                class="form__textarea form__textareaCatering" placeholder="Your message" required></textarea>
                         </fieldset>
                         <button class="imageTextBlock__btn imageTextBlock__btn--submit" type="submit"
                             value="Send">Submit</button>

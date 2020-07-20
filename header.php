@@ -72,7 +72,7 @@
             <nav class="siteHeader__navMenu">
                 <ul class="siteHeader__navList">
                     <li class="siteHeader__navListItem">
-                        <a href="/" class="siteHeader__navLink" title = "Home">Home</a>
+                        <a href="index.php" class="siteHeader__navLink" title = "Home">Home</a>
                     </li>
                     <li class="siteHeader__navListItem">
                         <a href="about.php" class="siteHeader__navLink" title = "About">About</a>
@@ -96,7 +96,7 @@
 
                 <div class="siteHeader__imageHolderLarge">
                     <div class="siteHeader__imageMaskLarge">
-                        <img src="./assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast">
+                        <img src="./assets/images/breakfast-images/breakfastMenu.jpg" alt="Full English breakfast" class = "siteHeader__image">
                         <?php include "assets/svgs/circleMasks/navClipMask.svg" ?>
                     </div>
                 </div>

@@ -93,6 +93,11 @@
         left: 0;
         background-color: $whiteMain;
     }
+
+    &__image {
+        position: relative;
+        top: -70px;
+    }
 }
 /*--------------------------------------*/
 

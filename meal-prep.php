@@ -1,9 +1,10 @@
 <?php
 $title = "Our Menus - The Moston Cafe";
+$canonical = "https://themoston.com/meal-prep.php";
 
 include "header.php";
 ?>
-<main data-barba="container" data-barba-namespace="mealPrep" class = "mainMealPrep">
+<main data-barba="container" data-barba-namespace="mealPrep" class="mainMealPrep">
     <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
@@ -17,7 +18,9 @@ include "header.php";
                 <!--Large image masking section-->
                 <div class="homeBanner__imageHolderLarge pos--rel">
                     <div class="homeBanner__imageLargeMask pos--rel">
-                        <img src="assets/images/mealPrep-images/menusPageMain.jpg" alt="" class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/mealPrep-images/mealPrepLargeImg.jpg"
+                            alt="Two boxes of food with Chicken, spinach and chilli sauce"
+                            class="homeBanner__maskedImages homeBanner__maskedImages--large pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerLargeMask.svg" ?>
                     </div>
@@ -26,8 +29,8 @@ include "header.php";
                 <!--Small image mask one section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--one pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--one pos--rel">
-                        <img src="assets/images/mealPrep-images/mostonBoxHomeSmall.jpg" alt=""
-                            class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/mealPrep-images/mostonBoxMenus.jpg"
+                            alt="Chicken, spicy rice with chilli sauce on" class="homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskOne.svg" ?>
                     </div>
@@ -36,8 +39,8 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/mealPrep-images/mostonBoxMenus.jpg" alt=""
-                            class="homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/mealPrep-images/menusPageMain.jpg"
+                            alt="Chicken, spinach with chilli sauce on" class="homeBanner__maskedImages pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
                     </div>
@@ -53,7 +56,10 @@ include "header.php";
         <div class="container process__holder">
 
             <div class="process__description pos--rel">
-                <p class="process__descriptionText">Try our healhty and delicious meal prep option if you want healthy and nutritious food cooked and delivered straight to your door twice per week (Monday & Wednesday). <b class = "process__boldText">1, 2, or 3 meals per day, lasting you Monday through till Friday.</b></p>
+                <p class="process__descriptionText">Try our healhty and delicious meal prep option if you want healthy
+                    and nutritious food cooked and delivered straight to your door twice per week (Monday & Wednesday).
+                    <b class="process__boldText">1, 2, or 3 meals per day, lasting you Monday through till Friday.</b>
+                </p>
                 <p class="process__descriptionText">Have your meal prep service specifically tailored to you and your
                     goals by having a sit-down consultation with our on-site nutritionist & owner who will be able to
                     tailor the calories to meet your needs.</p>
@@ -63,31 +69,29 @@ include "header.php";
             </div>
 
             <div class="process__steps">
-                <ul class="process__stepsList">
+                <ul class="process__stepsListHolder process__stepsListHolder">
 
-                    <div class="process__stepsListHolder">
-                        <li class="process__stepsItem pos--rel">
-                            <?php include "assets/svgs/icons/consult.svg" ?>
-                            <p class="process__stepsDescription">Sit down consultation with nutritionist</p>
-                            <?php include "assets/svgs/icons/arrow.svg" ?>
-                        </li>
-                        <li class="process__stepsItem pos--rel">
-                            <?php include "assets/svgs/icons/fruits.svg" ?>
-                            <p class="process__stepsDescription">Pick your food choices</p>
-                            <?php include "assets/svgs/icons/arrow-two.svg" ?>
-                        </li>
-                    </div>
-                    <div class="process__stepsListHolder process__stepsListHolder--reverse">
-                        <li class="process__stepsItem pos--rel">
-                            <?php include "assets/svgs/icons/pour.svg" ?>
-                            <p class="process__stepsDescription">Well prepared</p>
-                            <?php include "assets/svgs/icons/arrow-three.svg" ?>
-                        </li>
-                        <li class="process__stepsItem pos--rel">
-                            <?php include "assets/svgs/icons/truck.svg" ?>
-                            <p class="process__stepsDescription">Delivered to your door Mondays and Wednesdays</p>
-                        </li>
-                    </div>
+                    <li class="process__stepsItem pos--rel">
+                        <?php include "assets/svgs/icons/consult.svg" ?>
+                        <p class="process__stepsDescription">Sit down consultation with nutritionist</p>
+                        <?php include "assets/svgs/icons/arrow.svg" ?>
+                    </li>
+                    <li class="process__stepsItem pos--rel">
+                        <?php include "assets/svgs/icons/fruits.svg" ?>
+                        <p class="process__stepsDescription">Pick your food choices</p>
+                        <?php include "assets/svgs/icons/arrow-two.svg" ?>
+                    </li>
+                </ul>
+                <ul class="process__stepsListHolder process__stepsListHolder--reverse">
+                    <li class="process__stepsItem pos--rel">
+                        <?php include "assets/svgs/icons/pour.svg" ?>
+                        <p class="process__stepsDescription">Well prepared</p>
+                        <?php include "assets/svgs/icons/arrow-three.svg" ?>
+                    </li>
+                    <li class="process__stepsItem pos--rel">
+                        <?php include "assets/svgs/icons/truck.svg" ?>
+                        <p class="process__stepsDescription">Delivered to your door Mondays and Wednesdays</p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -106,7 +110,8 @@ include "header.php";
             </div>
 
             <div class="contactNutritionist__form">
-                <form action="" class="catering__form form form__cateringForm">
+                <form action="https://formspree.io/xnqggyeb" method="POST"
+                    class="catering__form form form__cateringForm">
                     <fieldset class="form__fieldset">
                         <label for="full-name" class="form__label form__labelCatering">Your full name (First and
                             Surname) *</label>
@@ -115,7 +120,7 @@ include "header.php";
                     </fieldset>
                     <fieldset class="form__fieldset">
                         <label for="email" class="form__label form__labelCatering">Your email</label>
-                        <input type="email" id="email" name="email" class="form__input form__inputCatering"
+                        <input type="email" id="email" name="_replyto" class="form__input form__inputCatering"
                             placeholder="Your email">
                     </fieldset>
                     <fieldset class="form__fieldset">

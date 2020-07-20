@@ -14,6 +14,13 @@
         color: $greyDark;
         padding-bottom: 2rem;
     }
+    
+    &__intro {
+
+        .menus__title {
+            margin: 2rem 0;
+        }
+    }
 
     &__circle {
         position: absolute;
