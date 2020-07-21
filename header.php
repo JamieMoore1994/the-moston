@@ -26,7 +26,7 @@
     <div class="container siteHeader__holder">
 
         <a class = "siteHeader__logoBtn" href="index.php" title = "Homepage">
-            <?php include "assets/svgs/siteLogo.svg" ?>
+            <?php include "assets/svgs/logoHeader.svg" ?>
         </a>
 
         <div class="siteHeader__contact">

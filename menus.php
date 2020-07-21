@@ -1,5 +1,6 @@
 <?php
 $title = "Our Menus - The Moston Cafe";
+$description = "Looking for delicious food in Manchester ? The Moston Cafe offers three amazing fairly priced menus - as well as daily specials.";
 $canonical = "https://themoston.com/menus.php";
 
 include "header.php";
@@ -36,7 +37,7 @@ include "header.php";
                 <!--Small image mask two section-->
                 <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                     <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                        <img src="assets/images/cakeImageHome.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                        <img src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="" class = "homeBanner__maskedImages homeBanner__maskedImages--large pos--abs">
 
                         <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
                     </div>

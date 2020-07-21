@@ -86,6 +86,11 @@
             height: 100%;
         }
 
+        &--med {
+            top: 0 !important;
+            height: 120%;
+        }
+
         &--topAdjust {
             top: -10%;
         }
@@ -194,10 +199,10 @@
 //750px
 @media screen and (max-width: $med) {
     .homeBanner {
-        padding-top: 2rem;
         
         &__holder {
             flex-direction: column;
+            padding-top: 5rem;
         }
 
         &__intro {
@@ -210,6 +215,11 @@
 
         &__title {
             text-align: center;
+            padding-right: 0;
+        }
+
+        &__subheading {
+            padding-right: 0;
         }
 
         .btn--black {
@@ -273,12 +283,12 @@
 @media screen and (max-width: $xs) {
     .homeBanner {
 
-        &__holder {
-            padding-top: 2rem;
-        }
-
         &__title {
-            font-size: 2.5rem;
+
+            &--home {
+                font-size: 2.3rem;
+            }
+
         }
 
         &__imageHolderLarge {

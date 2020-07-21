@@ -1,12 +1,12 @@
 const menuLinks = Array.from(document.querySelectorAll('.menuLinks'));
 
 function menuClickedLinks() {
-    for(let i = 0; i < menuLinks.length; i++) {
-        menuLinks[i].addEventListener('click', function(e) {
+    menuLinks.forEach(link => {
+        link.addEventListener('click', e => {
             e.preventDefault();
-            console.log('clicked');
+            console.log('Clicked');
         });
-    }
+    })
 }
 
 if(document.querySelector('.menus')) {

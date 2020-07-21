@@ -1,5 +1,6 @@
 <?php
-$title = "Our Menus - The Moston Cafe";
+$title = "Bespoke Cakes - The Moston Cafe";
+$description = "The Moston Cafe offers amazing, delicious and cheap personalised cakes that can tailor towards anyones needs. Our chef can make you any cake you wish.";
 $canonical = "https://themoston.com/cakes.php";
 
 include "header.php";
@@ -126,7 +127,7 @@ include "header.php";
                             placeholder="Your email" required>
                     </fieldset>
                     <fieldset class="form__fieldset">
-                        <label for="message" class="form__label form__labelCatering">Your Message</label>
+                        <label for="message" class="form__label form__labelCatering">Your Message *</label>
                         <textarea cols="30" rows="10" id="message" name="message"
                             class="form__textarea form__textareaCatering" placeholder="Your message" required></textarea>
                     </fieldset>

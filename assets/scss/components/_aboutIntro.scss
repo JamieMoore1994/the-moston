@@ -92,7 +92,8 @@
 //750px
 @media screen and (max-width: $med) {
     .aboutIntro {
-
+        padding-bottom: 0;
+        
         &__image {
             padding: 0 0 2rem 0;
         }

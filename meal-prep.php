@@ -1,5 +1,6 @@
 <?php
-$title = "Our Menus - The Moston Cafe";
+$title = "Meal Prep - The Moston Cafe";
+$description = "Looking for a healthier diet or too busy to prepare healthy meals yourself ? The Moston Cafe can help you with preparing healthy meals for you. Get in touch.";
 $canonical = "https://themoston.com/meal-prep.php";
 
 include "header.php";

@@ -13,7 +13,14 @@
     opacity: 0;
 
     &__logo {
-        width: 28rem;
-        height: 28rem;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    &__knife {
+
+        &.js-transform {
+            transform: translateX(20px);
+        }
     }
 }

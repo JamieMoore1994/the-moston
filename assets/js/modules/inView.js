@@ -15,19 +15,3 @@ if(document.querySelector('.mainHome') || document.querySelector('.mainAbout') |
     addInView();
 }
 
-// if(document.querySelector('.mainAbout')) {
-//     addInView();
-// }
-
-// if(document.querySelector('.mainContact')) {
-//     addInView();
-// }
-
-// if(document.querySelector('.mainMenus')) {
-//     addInView();
-// }
-
-// if(document.querySelector('.mainContact')) {
-//     addInView();
-// }
-

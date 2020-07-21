@@ -18,9 +18,15 @@
     }
 
     &__siteLogo {
-        width: 25rem;
+        width: 14rem;
         fill: black;
-        
+    }
+
+    &__knife {
+
+        &.js-transform {
+            transform: translateX(20px);
+        }
     }
 
     &__logoBtn {
@@ -98,19 +104,19 @@
         position: relative;
         top: -70px;
     }
+
+    &__logoFont {
+        font-size: 22px !important;
+    }
 }
 /*--------------------------------------*/
 
 //500px
 @media screen and (max-width: $xs) {
     .siteHeader{
-
-        &__holder {
-            justify-content: space-around;
-        }
         
         &__siteLogo {
-            width: 20rem;
+            width: 12.5rem;
         }
 
     }  
@@ -122,9 +128,9 @@
 @media screen and (max-width: $xxs) {
     .siteHeader{
         
-        &__siteLogo {
-            width: 18rem;
-        }
+        // &__siteLogo {
+        //     width: 18rem;
+        // }
 
     }  
 }

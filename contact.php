@@ -1,5 +1,6 @@
 <?php
-$title = "Our Menus - The Moston Cafe";
+$title = "Contact Us - The Moston Cafe";
+$description = "Contact us - have any queries about our cakes, meal prep or food ? or want to book in for a Sunday roast ? then get in touch with us and we will reply asap.";
 $canonical = "https://themoston.com/contact.php";
 
 include "header.php";
@@ -53,8 +54,7 @@ include "header.php";
             <div class="contactUs__intro">
                 <h2 class="process__title">Get in touch with us!</h2>
                 <p class="contactUs__text">Want to book in with us for a sunday roast or looking for more information
-                    about our cafe? fill out our contact form or alternatively contact us below in whatever way is best
-                    for you.</p>
+                    about our cafe? fill out our contact form or get in touch with us through email/mobile or through social media and a member of our staff will be in touch with you asap to schedule a booking for you. We look forward to seeing you.</p>
 
                 <div class="contactUs__alternative">
                     <ul class="contactUs__list">
@@ -63,7 +63,7 @@ include "header.php";
                             <a class="contactUs__link" href="mailto:info@themoston.com">info@themoston.com</a>
                         </li>
                         <li class="contactUs__listItem">
-                            <h3 class="contactUs__alternativeTitle">Mobile:</h3>
+                            <h3 class="contactUs__alternativeTitle">Telephone:</h3>
                             <a class="contactUs__link" href="tel:07740593279">01612058864</a>
                         </li>
                     </ul>
@@ -79,12 +79,12 @@ include "header.php";
                             placeholder="Full name" required>
                     </fieldset>
                     <fieldset class="form__fieldset">
-                        <label for="email" class="form__label form__labelCatering">Your email</label>
+                        <label for="email" class="form__label form__labelCatering">Your email *</label>
                         <input type="email" id="email" name="_replyto" class="form__input form__inputCatering"
                             placeholder="Your email" required>
                     </fieldset>
                     <fieldset class="form__fieldset">
-                        <label for="message" class="form__label form__labelCatering">Your Message</label>
+                        <label for="message" class="form__label form__labelCatering">Your Message *</label>
                         <textarea cols="30" rows="10" id="message" name="message" required
                             class="form__textarea form__textareaCatering" placeholder="Your message"></textarea>
                     </fieldset>

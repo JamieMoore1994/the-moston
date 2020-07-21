@@ -1,7 +1,6 @@
 <?php
 $title = "The Moston Cafe - Manchester";
-$description = "The Moston Cafe is a new local cafe based in Moston, Manchester that aims to bring amazing food as well as a community driven cafe";
-
+$description = "The Moston Cafe is a community cafe/health bar based in Manchester that aims to bring people together with incredible tasting food, meal preps & more.";
 $canonical = "https://themoston.com/index.php";
 
 include "header.php";
@@ -10,7 +9,7 @@ include "header.php";
     <section class="homeBanner">
         <div class="container homeBanner__holder">
             <div class="homeBanner__intro">
-                <h1 class="homeBanner__title">Your new local cafe in Moston for <span
+                <h1 class="homeBanner__title homeBanner__title--home">Your new local cafe in Moston for <span
                         class="homeBanner__textUnderline">delicious food</span></h1>
                 <div class="homeBanner__textFill"></div>
 
@@ -71,7 +70,7 @@ include "header.php";
             <div class="imageTextBlock__holder imageTextBlock__holder--row pos--rel">
                 <div class="imageTextBlock__imageHolder pos--rel">
                     <div
-                        class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--breakfast imageTextBlock__imageMaskLarge--row-reverse">
+                        class="imageTextBlock__imageMaskLarge imageTextBlock__imageMaskLarge--breakfast imageTextBlock__imageMaskLarge">
                         <img src="assets/images/breakfast-images/fullEnglish-two.jpg" alt="Full English breakfast" class="imageTextBlock__img imageTextBlock__img--large">
 
                         <?php include "assets/svgs/circleMasks/breakfastLargeMask.svg" ?>

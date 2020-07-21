@@ -1,5 +1,6 @@
 <?php
 $title = "About us - The Moston Cafe";
+$description = "The Moston Cafe is no ordinary cafe, it is a cafe owned by the locals, for the locals. We are a community driven cafe that offers amazing food.";
 $canonical = "https://themoston.com/about.php";
 
 include "header.php";
@@ -37,7 +38,7 @@ include "header.php";
                     <!--Small image mask two section-->
                     <div class="homeBanner__imageHolderSmall homeBanner__imageHolderSmall--two pos--abs">
                         <div class="homeBanner__smallImageMask homeBanner__smallImageMask--two pos--rel">
-                            <img src="assets/images/cakeImageHome.jpg" alt="" class = "homeBanner__maskedImages pos--abs">
+                            <img src="assets/images/about/theMostonOutside.jpg" alt="Staff members Paul, Kai and Chris" class = "homeBanner__maskedImages homeBanner__maskedImages--med pos--abs">
 
                             <?php include "assets/svgs/circleMasks/homeBannerSmallMaskTwo.svg" ?>
                         </div>
@@ -82,7 +83,7 @@ include "header.php";
 
                         <p class="ourStaff__profileDescription">For the past 3 years or so I have been building Cakey (online cake shop) pushing the limits and myself to bring people professional but more than anything affordable bespoke cakes. I saw the property to rent and before I stepped foot inside, I knew this was happening.</p>
 
-                        <p class="ourStaff__profileDescription">My aim and goals opening the Moston is to not only produce the best fry up and café around, but to bring community spirit back into the area.  We aim to bring you high quality food at a fraction of restaurant prices, introducing steak nights and similar events.  Date nights right around the corner and barley breaking the bank. I am looking forward to expanding your taste buds.</p>
+                        <p class="ourStaff__profileDescription">My aim and goals opening the Moston is to not only produce the best fry up and café around, but to bring community spirit back into the area.  We aim to bring you high quality food at a fraction of restaurant prices, introducing steak nights and similar events.  Date nights right around the corner and barely breaking the bank. I am looking forward to expanding your taste buds.</p>
                     </div>
                 </li>
                 <!--Kai-->

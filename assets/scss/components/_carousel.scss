@@ -28,12 +28,14 @@
     &__btn {
         border: 0;
         border-radius: 50%;
-        padding: 1.5rem;
-        background-color: #bdbdbd;
+        padding: 1.5rem 1.8rem;
         cursor: pointer;
         position: absolute;
+        background-color: #fff;
         top: 50%;
         transform: translateY(-50%);
+        border: 1px solid black;
+        transition: border 200ms ease;
 
         &--left {
             transform: rotate(180deg);
@@ -43,6 +45,10 @@
 
         &--right {
             right: 20px;
+        }
+
+        &:hover, &:focus {
+            border: 1px solid rgba(0, 0, 0, 0.5);
         }
     }
 

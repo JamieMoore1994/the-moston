@@ -274,8 +274,16 @@
         }
 
         &__imageMaskLarge {
-            left: 20%;
+            left: 40%;
             top: 40px;
+
+            &--row-reverse {
+                left: -20%;
+            }
+
+            &--sundayRoast {
+                left: -20%;
+            }
         }
 
         &__circle {
@@ -297,6 +305,28 @@
 
         &__text {
             font-size: 1.5rem;
+        }
+
+        &__btn {
+            padding: 1rem 5rem;
+        }
+    }
+}
+
+/*--------------------------------------*/
+
+//750px
+@media screen and (max-width: $med) {
+    .imageTextBlock {
+
+        &__contentHolder {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__btn {
+            text-align: center;
         }
     }
 }

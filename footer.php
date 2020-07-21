@@ -69,7 +69,7 @@
 </main>
 
 <div class="pageTransition">
-    <?php include "assets/svgs/siteLogoTransition.svg" ?>
+    <?php include "assets/svgs/logoTransition.svg" ?>
 </div>
 
 
